@@ -3,18 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Tristan Germer</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/common.css">
   </head>
   <body>
     <header>
       <h1>Tristan Germer</h1>
-      <nav>
-        <ul>
-          <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
-          <li><a href="{{ site.baseurl }}/news.html">News</a></li>
-        </ul>
-      </nav>
+      {% include nav.html navclass='nav-top' %}
     </header>
 
     {{ content }}
+
+    <footer>
+      <hr>
+      {% include nav.html navclass='nav-bottom' %}
+      <p>(c) Tristan Germer</p>
+    </footer>
   </body>
 </html>
