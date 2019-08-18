@@ -24,11 +24,12 @@ layout: default
   <ol>
 {% for vortraege in site.data.programmfk %}
   {% if vortraege['vortraege'].size %}
+    {% assign vortraegeAnzahl = vortraege['vortraege'].size %}
     {% assign vortraegeSort = vortraege['vortraege'] | sort: 'start' %}
     {% for vortrag in vortraegeSort %}
       <li><b>{{ vortrag.start | date: "%H:%M" }}&nbsp;Uhr</b> {{ vortrag.titel }}</li>
     {% endfor %}
   {% endif %}
-    KEIEN Vorträge in FK {{ vortraege.nummer }}
+   {{ vortraegeAnzahl }}  Vorträge in FK {{ vortraege.nummer }}
 {% endfor %}
 </ol>
