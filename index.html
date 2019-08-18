@@ -29,6 +29,6 @@ layout: default
       <li><b>{{ vortrag.start | date: "%H:%M" }}&nbsp;Uhr</b> {{ vortrag.titel }}</li>
     {% endfor %}
   {% endif %}
-    KEIEN Vorträge
+    KEIEN Vorträge in FK {{ vortraege.nummer }}
 {% endfor %}
 </ol>
