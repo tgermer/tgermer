@@ -18,3 +18,16 @@ layout: default
     <button type="submit">Send</button>
   </p>
 </form>
+
+<h2>VORTRÄGE<h2>
+  
+  <ol>
+{% for vortraege in site.data.programmfk %}
+  {% if vortraege['vortraege'].size %}
+    {% assign vortraegeSort = vortraege['vortraege'] | sort: 'start' %}
+    {% for vortrag in vortraegeSort %}
+      <li><b>{{ vortrag.start | date: "%H:%M" }}&nbsp;Uhr</b> {{ vortrag.titel }}</li>
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+</ol>
