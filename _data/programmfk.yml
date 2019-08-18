@@ -1,0 +1,401 @@
+# Programm der Fakuläten
+# https://jsoneditoronline.org/?id=bf19cb76dd2d4edc9fbf817b51ba0fea
+# Nested Data: https://stackoverflow.com/questions/54810258/jekyll-nested-data
+- nummer: "01"
+  titel: Architektur
+  infostand: Lothstraße 64
+  gespraech:
+    start: 2020-03-28 10:00
+    ende: 2020-03-28 15:00
+    punkte:
+      - Präsentation von Modellen und Katalogen
+  praesentation:
+    start:
+    ende:
+    punkte:
+  vortraege:
+    - titel: Der Bachelorstudiengang Architektur
+      start: 2020-03-28 11:30
+      ende: 2020-03-28 12:30
+      raum: R 1.087
+- nummer: "02"
+  titel: Bauingenieurwesen
+  infostand: Lothstraße 64
+  gespraech:
+    start: 2020-03-28 10:00
+    ende: 2020-03-28 15:00
+    punkte:
+      - Die Studienabschlüsse Bachelor und Master
+      - Der duale Bachelorstudiengang Bauingenieurwesen
+      - Das Verbundstudium Stahl-Metall-Glas
+      - Dein Studienort Karlstraße 6
+  praesentation:
+    start: 2020-03-28 10:00
+    ende: 2020-03-28 15:00
+    punkte:
+      - Schwimmender Beton
+      - Prüfung von Glas
+      - Der Baustoff Beton
+  vortraege:
+    - titel: Was macht ein/e Bauingenieur/in? Berufsbilder des Bauingenieurwesens.
+      start: 2020-03-28 12:00
+      ende: 2020-03-28 13:00
+      raum: R 1.049
+- nummer: "03"
+  titel: Maschinenbau, Fahrzeugtechnik, Flugzeugtechnik
+  infostand: Lothstraße 64
+  gespraech:
+    start: 2020-03-28 10:00
+    ende: 2020-03-28 15:00
+    punkte:
+  praesentation:
+    start: 2020-03-28 10:00
+    ende: 2020-03-28 15:00
+    punkte:
+      - municHMotorsport
+      - Hydro2Motion
+  vortraege:
+    - titel: Das Studium an der Fakultät für Maschinenbau, Fahrzeugtechnik, Flugzeugtechnik
+      start: 2020-03-28 13:00
+      ende: 2020-03-28 14:00
+      raum: R 1.049
+  fuehrungen:
+    - titel: Motorenlabor
+      treffpunkt: Infostand der Fakultät
+      start: 2020-03-28 11:00
+      ende: 2020-03-28 11:45
+    - titel: Motorenlabor
+      treffpunkt: Infostand der Fakultät
+      start: 2020-03-28 12:00
+      ende: 2020-03-28 12:45
+- nummer: "04"
+  titel: Elektrotechnik und Informationstechnik
+  infostand: Lothstraße 64
+  gespraech:
+    start: 2020-03-28 10:00
+    ende: 2020-03-28 15:00
+    punkte:
+      - Vertiefungsrichtung Kommunikationstechnik
+      - Demos Labor Schaltungstechnik
+      - Robotikwerkstatt
+      - Smart Car
+      - Computer Kicker
+  praesentation:
+    start:
+    ende:
+    punkte:
+  vortraege:
+    - titel: Vorstellung der Studiengänge
+      start: 2020-03-28 11:00
+      ende: 2020-03-28 12:00
+      raum: E 0.103
+  fuehrungen:
+    - titel: Nachrichtensatellitentechnik
+      treffpunkt: Infostand der Fakultät
+      start: 2020-03-28 12:00
+      ende: 2020-03-28 12:30
+    - titel: Regelungstechnik
+      treffpunkt: Infostand der Fakultät
+      start: 2020-03-28 12:30
+      ende: 2020-03-28 13:00
+    - titel: Aufbau- und Verbindungstechnik
+      treffpunkt: Infostand der Fakultät
+      start: 2020-03-28 13:00
+      ende: 2020-03-28 13:30
+    - titel: Regelungstechnik
+      treffpunkt: Infostand der Fakultät
+      start: 2020-03-28 13:30
+      ende: 2020-03-28 14:00
+- nummer: "05"
+  titel: Versorgungs- und Gebäudetechnik, Verfahrenstechnik Papier und Verpackung, Druck- und Medientechnik
+  infostand: Lothstraße 64
+  gespraech:
+    start: 2020-03-28 10:00
+    ende: 2020-03-28 15:00
+    punkte:
+      - Multimediavorstellungen aus den Studiengängen
+  praesentation:
+    start:
+    ende:
+    punkte:
+  vortraege:
+    - titel: "Bachelor Technische Redaktion und Kommunikation: die integrierte Technikkommunikation"
+      start: 2020-03-28 11:00
+      ende: 2020-03-28 11:30
+      raum: R 1.087
+    - titel: Bachelor und Master Papiertechnik
+      start: 2020-03-28 11:00
+      ende: 2020-03-28 11:30
+      raum: R 1.003
+    - titel: Bachelor und Master Verpackungstechnik
+      start: 2020-03-28 11:30
+      ende: 2020-03-28 12:00
+      raum: R 1.003
+    - titel: Bachelor Druck- und Medientechnik und Master Printmedien, Technologie und Management
+      start: 2020-03-28 12:30
+      ende: 2020-03-28 13:00
+      raum: R 1.003
+    - titel: Studiengänge der Energie- und Gebäudetechnik
+      start: 2020-03-28 13:00
+      ende: 2020-03-28 13:45
+      raum: R 1.003
+  fuehrungen:
+    - titel: Einführung und experimentelle Laborführung Technische Redaktion und Kommunikation
+      treffpunkt: Infostand der Fakultät
+      start: 2020-03-28 11:45
+      ende: 2020-03-28 12:30
+    - titel: Führung Bereich Papier und Verpackung (Labore, Maschinenhalle etc.)
+      treffpunkt: Infostand der Fakultät
+      start: 2020-03-28 12:15
+      ende: 2020-03-28 13:00
+    - titel: "Laborführung: Studiengang Druck- und Medientechnik „Produktion von Fotobüchern“"
+      treffpunkt: Infostand der Fakultät
+      start: 2020-03-28 13:50
+      ende: 2020-03-28 14:15
+    - titel: "Laborführung: Studiengang Energie- und Gebäudetechnik"
+      treffpunkt: Infostand der Fakultät
+      start: 2020-03-28 13:45
+      ende: 2020-03-28 14:45
+- nummer: "06"
+  titel: Angewandte Naturwissenschaften und Mechatronik
+  infostand: Lothstraße 64
+  gespraech:
+    start: 2020-03-28 10:00
+    ende: 2020-03-28 15:00
+    punkte:
+  praesentation:
+    start:
+    ende:
+    punkte:
+  vortraege:
+    - titel: Mechatronik / Feinwerktechnik - Bachelor (auch in Teilzeit) und Master
+      start: 2020-03-28 10:45
+      ende: 2020-03-28 11:05
+      raum: R 1.049
+    - titel: Produktion und Automatisierung - National und deutsch-französisch - Bachelor und Master
+      start: 2020-03-28 11:05
+      ende: 2020-03-28 11:25
+      raum: R 1.049
+    - titel: Physikalische Technik – Bachelor sowie Masterstudiengänge Mikro- und Nanotechnologie und Photonik
+      start: 2020-03-28 11:30
+      ende: 2020-03-28 11:50
+      raum: R 1.049
+    - titel: Chemische Technik – Bachelor
+      start: 2020-03-28 10:45
+      ende: 2020-03-28 11:05
+      raum: R 1.005
+    - titel: Bioingenieurwesen – Bachelor und Master
+      start: 2020-03-28 11:10
+      ende: 2020-03-28 11:30
+      raum: R 1.005
+    - titel: Augenoptik-Optometrie – Bachelor
+      start: 2020-03-28 11:45
+      ende: 2020-03-28 11:55
+      raum: R 1.005
+  fuehrungen:
+    - titel: Chemie-Labore
+      treffpunkt: R 1.005
+      start: 2020-03-28 11:05
+      ende: 2020-03-28 12:05
+    - titel: Robotik und Automatisierung, sowie weitere Labore der Mechatronik
+      treffpunkt: R 1.049
+      start: 2020-03-28 11:25
+      ende: 2020-03-28 12:25
+    - titel: Biochemie-Labor und weitere Chemie-Labore
+      treffpunkt: R 1.005
+      start: 2020-03-28 11:30
+      ende: 2020-03-28 12:30
+    - titel: Physik-Labore
+      treffpunkt: R 1.049
+      start: 2020-03-28 11:50
+      ende: 2020-03-28 12:50
+    - titel: Seh-Labor
+      treffpunkt: R 1.005
+      start: 2020-03-28 11:55
+      ende: 2020-03-28 12:55
+- nummer: "07"
+  titel: Informatik, Mathematik
+  infostand: Lothstraße 64
+  gespraech:
+    start: 2020-03-28 10:00
+    ende: 2020-03-28 15:00
+    punkte:
+      - VR Projekt mit HTC Vive
+      - Autonomes Fahren – SAM Projekt
+      - Mobile Netze
+      - Embedded Computing – Unsichtbare Software ist überall
+  praesentation:
+    start:
+    ende:
+    punkte:
+  vortraege:
+    - titel: Bachelor Informatik und Scientific Computing
+      start: 2020-03-28 10:45
+      ende: 2020-03-28 11:30
+      raum: R 0.003
+    - titel: Bachelor Informatik und Scientific Computing
+      start: 2020-03-28 12:30
+      ende: 2020-03-28 13:15
+      raum: R 0.003
+    - titel: Bachelor Wirtschaftsinformatik
+      start: 2020-03-28 11:30
+      ende: 2020-03-28 12:15
+      raum: R 0.006
+    - titel: Bachelor Wirtschaftsinformatik
+      start: 2020-03-28 13:15
+      ende: 2020-03-28 14:00
+      raum: R 0.006
+  fuehrungen:
+    - titel: Mobile Netze – Demonstration so funkt ein Mobilgerät in unserem eigenen LTE-Netz
+      treffpunkt: R 1.009a
+      start: 2020-03-28 11:45
+      ende: 2020-03-28 12:15
+    - titel: Demonstration Autonomes Fahren – SAM Projekt
+      treffpunkt: R 2.011
+      start: 2020-03-28 13:30
+      ende: 2020-03-28 13:50
+- nummer: "08"
+  titel: Geoinformation
+  infostand: Lothstraße 64
+  gespraech:
+    start: 2020-03-28 10:00
+    ende: 2020-03-28 15:00
+    punkte:
+      - Live Demo 3D-Messtechnik – unsere Welt dreidimensional erfassen
+      - Geomedientechnik und Virtual Reality – Gebäudemodelle einmal anders
+      - Von Satellitenbildkarten, Designkarten, GeoApps und interaktiven 3D-Visualisierungen
+  praesentation:
+    start:
+    ende:
+    punkte:
+  vortraege:
+    - titel: Kartographie und Geomedientechnik – was erwartet mich im Studium und wo könnte ich später arbeiten?
+      start: 2020-03-28 12:00
+      ende: 2020-03-28 12:15
+      raum: R 1.004
+    - titel: Angewandte Geodäsie und Geoinformatik – was steckt denn da dahinter?
+      start: 2020-03-28 12:15
+      ende: 2020-03-28 12:30
+      raum: R 1.004
+    - titel: Wo und was arbeite ich später eigentlich, wenn ich Geoinformatik und Navigation studiere?
+      start: 2020-03-28 12:30
+      ende: 2020-03-28 12:45
+      raum: R 1.004
+    - titel: Warum sollte ich den Master Geomatik studieren? Inhalte und Berufsaussichten
+      start: 2020-03-28 12:45
+      ende: 2020-03-28 13:00
+      raum: R 1.004
+  fuehrungen:
+- nummer: "09"
+  titel: Wirtschaftsingenieurwesen
+  infostand: Lothstraße 64
+  gespraech:
+    start: 2020-03-28 10:00
+    ende: 2020-03-28 15:00
+    punkte:
+      - Live Demo 3D-Messtechnik – unsere Welt dreidimensional erfassen
+      - Geomedientechnik und Virtual Reality – Gebäudemodelle einmal anders
+      - Von Satellitenbildkarten, Designkarten, GeoApps und interaktiven 3D-Visualisierungen
+  praesentation:
+    start:
+    ende:
+    punkte:
+  vortraege:
+    - titel: Studieren an der Fakultät für Wirtschaftsingenieurwesen<br><small>Voraussetzungen – Schwerpunkte – Berufschancen – Auslandsmöglichkeiten</small>
+      start: 2020-03-28 12:00
+      ende: 2020-03-28 13:00
+      raum: R 1.046
+  fuehrungen:
+    - titel: Ausgewählte Labore der Fakultät für Wirtschaftsingenieurwesen
+      treffpunkt: R 1.046
+      start: 2020-03-28 13:00
+      ende: 2020-03-28 14:00
+- nummer: "10"
+  titel: Betriebswirtschaft
+  infostand: Lothstraße 64
+  gespraech:
+    start: 2020-03-28 10:00
+    ende: 2020-03-28 15:00
+    punkte:
+  praesentation:
+    start:
+    ende:
+    punkte:
+  vortraege:
+    - titel: Kurz vorgestellt – die Fakultät für Betriebswirtschaft und ihre Studiengänge
+      start: 2020-03-28 11:00
+      ende: 2020-03-28 12:00
+      raum: R 1.046
+  fuehrungen:
+- nummer: "11"
+  titel: Angewandte Sozialwissenschaften
+  infostand: Lothstraße 64
+  gespraech:
+    start: 2020-03-28 10:00
+    ende: 2020-03-28 15:00
+    punkte:
+  praesentation:
+    start:
+    ende:
+    punkte:
+  vortraege:
+    - titel: Die Bachelorstudiengänge an der Fakultät für angewandte Sozialwissenschaften
+      start: 2020-03-28 13:00
+      ende: 2020-03-28 14:00
+      raum: R 1.046
+  fuehrungen:
+- nummer: "12"
+  titel: Design
+  infostand: Lothstraße 64
+  gespraech:
+    start: 2020-03-28 10:00
+    ende: 2020-03-28 15:00
+    punkte:
+  praesentation:
+    start:
+    ende:
+    punkte:
+  vortraege:
+    - titel: Studienberatung zu allen drei Bachelor-Studienrichtungen
+      start: 2020-03-28 11:00
+      ende: 2020-03-28 14:00
+      raum: Lothstraße 17
+    - titel: Studieninformation zum Master-Studiengang
+      start: 2020-03-28 12:30
+      ende:
+      raum: Lothstraße 17
+  fuehrungen:
+    - titel: Führung durch das Gebäude der Fakultät für Design
+      start: 2020-03-28 11:00
+      ende: 2020-03-28 15:00
+      treffpunkt: Lothstraße 17
+- nummer: "13"
+  titel: Studium Generale und Interdisziplinäre Studien
+  infostand: Lothstraße 64
+  gespraech:
+    start: 2020-03-28 10:00
+    ende: 2020-03-28 15:00
+    punkte:
+  praesentation:
+    start:
+    ende:
+    punkte:
+  vortraege:
+  fuehrungen:
+- nummer: "14"
+  titel: Tourismus
+  infostand: Lothstraße 64
+  gespraech:
+    start: 2020-03-28 10:00
+    ende: 2020-03-28 15:00
+    punkte:
+  praesentation:
+    start:
+    ende:
+    punkte:
+  vortraege:
+    - titel: Tourismus – Arbeitsplatz unter Palmen?!
+      start: 2020-03-28 14:00
+      ende: 2020-03-28 14:45
+      raum: R 1.046
+  fuehrungen:
