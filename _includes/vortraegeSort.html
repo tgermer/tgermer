@@ -1,0 +1,69 @@
+{% comment %} --- Erstellt mit Hilfe von https://stackoverflow.com/questions/57462320/how-can-i-sort-nested-data-with-jekyll-liquid/57501582?noredirect=1#comment101587169_57501582 --- {% endcomment %}
+
+{% comment %} --- Create an empty array --- {% endcomment %}
+{% assign items_all = '' | split: '' %}
+
+{% for items in site.data.programmfk %}
+
+  {% comment %} --- Only if items['vortraege'] contains something  -- {% endcomment %}
+  {% if items['vortraege'].size %}
+
+    {% comment %} --- Concatenate items_all and current non-empty items['vortraege'] --- {% endcomment %}
+    {% assign items_all = items_all | concat: items['vortraege'] %}
+
+  {% endif %}
+{% endfor %}
+
+{% comment %} --- Sorting --- {% endcomment %}
+{% assign items_all = items_all | sort: 'start' %}
+
+{% for item in items_all %}
+<div class="card mb-3" style="max-w idth: 840px;">
+  <div class="row no-gutters">
+    <div class="col-md-2">
+      <div class="card-body text-primary text-center" title="{{ item.start | date: "%H:%M" }}{% if item.ende != nil %}–{{ item.ende | date: "%H:%M" }}&nbsp;Uhr{% endif %}">
+        <span class="d-none d-md-block">
+          <h3>{{ item.start | date: "%H:%M" }}
+            <br>
+            <small>{% if item.ende != nil %}–<br>{{ item.ende | date: "%H:%M" }}{% endif %}</small>
+          </h3>
+        </span>
+        <span class="d-block d-md-none">
+          <h3>{{ item.start | date: "%H:%M" }}
+            {% if item.ende != nil %}–{{ item.ende | date: "%H:%M" }}{% endif %}&nbsp;Uhr
+          </h3>
+        </span>
+      </div>
+    </div>
+    <div class="col-md-10">
+      <div class="card-body text-center text-md-left">
+        <h5 class="card-title">{{ item.titel }}</h5>
+        {% comment %} ---
+        <p class="card-text text-muted">Ein Vortrag der Fakultät&nbsp;{{ items.nummer }} – {{ items.titel }}</p>
+        --- {% endcomment %}
+        <p class="card-text text-muted"><i class="fas fa-map-marker-alt"></i>&nbsp;{{ item.raum | join: " & " }}</p>
+        <p>
+          {% assign randomNumber = "now" | date: "%s%L" %}
+          <script>
+            var cal{{ randomNumber }}{{ item.raum | remove: " " | remove: "." }} = ics();
+            cal{{ randomNumber }}{{ item.raum | remove: " " | remove: "." }}.addEvent('VORTRAG {{ item.titel }}', '#{{ site.hashtag }}', '{{ item.raum }}', '{{ item.start | date: "%m/%d/%Y %l:%M %P %z" }}', '{{ item.ende | date: "%m/%d/%Y %l:%M %P %z" }}');
+          </script>
+          <small>
+          <a href="javascript:cal{{ randomNumber }}{{ item.raum | remove: " " | remove: "." }}.download('{{ randomNumber }}{{ item.raum | remove: " " | remove: "." }}')" class="text-muted"><i class="fas fa-calendar-check"></i> Vortrag in Kalender eintragen</a>
+          </small>
+      </p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+
+<!-- <script type="text/javascript">
+  var cal = ics();
+cal.addEvent('Christmas', 'Christian holiday celebrating the birth of Jesus Christ', 'Bethlehem', '12/25/2013', '12/25/2013');
+cal.addEvent('Christmas', 'Christian holiday celebrating the birth of Jesus Christ', 'Bethlehem', '12/25/2014', '12/25/2014');
+console.log('Events\n' + cal.events());
+console.log('Calendar\n' + cal.calendar());
+</script> -->
+
+<!-- <a href="javascript:cal.download('christmas')">Download iCal</a> -->

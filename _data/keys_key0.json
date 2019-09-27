@@ -1,0 +1,143 @@
+{
+	"dataroot": {
+		"keys_key0": [
+			{
+				"schluessel": "01",
+				"nummer": "01",
+				"fachrich": "Architektur",
+				"sammelstg": "AR",
+				"sto_schl": "7240",
+				"kurz": "01",
+				"id": "1"
+			},
+			{
+				"schluessel": "13",
+				"nummer": "13",
+				"fachrich": "Studium Generale und Interdisziplinäre Studien",
+				"sammelstg": "AW,IK",
+				"sto_schl": "7240",
+				"kurz": "13",
+				"id": "2"
+			},
+			{
+				"schluessel": "10",
+				"nummer": "10",
+				"fachrich": "Betriebswirtschaft",
+				"sammelstg": "BW,BA",
+				"sto_schl": "7240",
+				"kurz": "10",
+				"id": "3"
+			},
+			{
+				"schluessel": "04",
+				"nummer": "04",
+				"fachrich": "Elektrotechnik und Informationstechnik",
+				"sammelstg": "EI,EL,EE,SM",
+				"sto_schl": "7240",
+				"kurz": "04",
+				"id": "4"
+			},
+			{
+				"schluessel": "03",
+				"nummer": "03",
+				"fachrich": "Maschinenbau, Fahrzeugtechnik, Flugzeugtechnik",
+				"sammelstg": "FA,MB,FE",
+				"sto_schl": "7240",
+				"kurz": "03",
+				"id": "5"
+			},
+			{
+				"schluessel": "12",
+				"nummer": "12",
+				"fachrich": "Design",
+				"sammelstg": "ID,KD,FO",
+				"sto_schl": "7240",
+				"kurz": "12",
+				"id": "6"
+			},
+			{
+				"schluessel": "05",
+				"nummer": "05",
+				"fachrich": "Versorgungs- und Gebäudetechnik, Verfahrenstechnik Papier und Verpackung, Druck- und Medientechnik",
+				"sammelstg": "DR,VF,VS,GT",
+				"sto_schl": "7240",
+				"kurz": "05",
+				"id": "7"
+			},
+			{
+				"schluessel": "08",
+				"nummer": "08",
+				"fachrich": "Geoinformation",
+				"sammelstg": "KA,VM",
+				"sto_schl": "7240",
+				"kurz": "08",
+				"id": "8"
+			},
+			{
+				"schluessel": "09",
+				"nummer": "09",
+				"fachrich": "Wirtschaftsingenieurwesen",
+				"sammelstg": "WI,WW,WA,WE",
+				"sto_schl": "7240",
+				"kurz": "09",
+				"id": "9"
+			},
+			{
+				"schluessel": "14",
+				"nummer": "14",
+				"fachrich": "Tourismus",
+				"sammelstg": "TR",
+				"sto_schl": "7240",
+				"kurz": "14",
+				"id": "10"
+			},
+			{
+				"schluessel": "11",
+				"nummer": "11",
+				"fachrich": "Angewandte Sozialwissenschaften",
+				"sammelstg": "SW,SO,SY",
+				"sto_schl": "7240",
+				"kurz": "11",
+				"id": "11"
+			},
+			{
+				"schluessel": "02",
+				"nummer": "02",
+				"fachrich": "Bauingenieurwesen",
+				"sammelstg": "BI,ST",
+				"sto_schl": "7240",
+				"kurz": "02",
+				"id": "12"
+			},
+			{
+				"schluessel": "07",
+				"nummer": "07",
+				"fachrich": "Informatik, Mathematik",
+				"sammelstg": "IF,IB,IN,IS,IG",
+				"sto_schl": "7240",
+				"kurz": "07",
+				"id": "13"
+			},
+			{
+				"schluessel": "99",
+				"nummer": "99",
+				"fachrich": "Sonderbereiche",
+				"sammelstg": "GA",
+				"sto_schl": "7240",
+				"kurz": "99",
+				"id": "14"
+			},
+			{
+				"schluessel": "06",
+				"nummer": "06",
+				"fachrich": "Angewandte Naturwissenschaften und Mechatronik",
+				"sammelstg": "FM,PT,PH,BO",
+				"sto_schl": "7240",
+				"kurz": "06",
+				"id": "15"
+			}
+		],
+		"_xmlns:od": "urn:schemas-microsoft-com:officedata",
+		"_generated": "2019-08-07T08:43:02"
+	}
+}

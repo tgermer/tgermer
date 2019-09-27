@@ -1,0 +1,125 @@
+---
+layout: container
+title:
+---
+
+<div class="jumbotron pb-1">
+  <h1 class="display-4">{{ site.title }}</h1>
+  <p class="lead">{{ site.slogan }}</p>
+  <hr class="my-4">
+  <p>Erfahre auf dieser und den folgenden Seiten alles zum {{ site.title }} am&nbsp;{% include date.html %}</p>
+  <figure class="figure">
+  <img src="{{ site.url }}/assets/img/HM_Deu_RGB_2.svg" class="figure-img img-fluid rounded" alt="Logo der {{ site.company }}">
+  <figcaption class="figure-caption">Eine Veranstaltung der {{ site.company }}</figcaption>
+</figure>
+</div>
+
+<style>
+  @media (max-width: 399px) {
+    .card-deck .card {
+      width: 100%;
+    }
+  }
+  @media (min-width: 400px) {
+    .card-deck .card {
+      min-width: 360px;
+    }
+  }
+</style>
+
+<h2 class="mt-5 mb-4">{{ site. title }} in Zahlen</h2>
+
+<div class="card-deck mb-3 text-center">
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">Workshops/Vorträge</h4>
+    </div>
+    <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card-body">
+      <i class="fas fa-shapes fa-3x text-primary mb-3"></i>
+      <h1 class="card-title text-primary"><b>{% include rahmenprogrammTotal.html %}</b> <small>Workshops/Vorträge</small></h1>
+      <p class="lead text-primary">aus dem Rahmenprogramm</p>
+      <p class="card-text">Erkundige Dich zu den Fakultäten an der {{ site.company }}</p>
+      </div>
+    <div class="card-footer bg-transparent">
+      <a href="{{ site.url }}/programm/rahmenprogramm" class="btn btn-block btn-outline-primary">Zum Rahmenprogramm</a>
+    </div>
+  </div>
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">Fakultäten</h4>
+    </div>
+    <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card-body">
+      <i class="fas fa-university fa-3x text-primary mb-3"></i>
+      <h1 class="card-title text-primary"><b>{% include fakultaetenTotal.html %}</b> <small>Fakultäten</small></h1>
+      <!-- <p class="lead text-primary">aus dem Rahmenprogramm</p> -->
+      <p class="card-text">Erkundige Dich zu den Fakultäten an der {{ site.company }}</p>
+      </div>
+    <div class="card-footer bg-transparent">
+      <a href="{{ site.url }}/fakultaeten" class="btn btn-block btn-outline-primary">Zu den Fakultäten</a>
+    </div>
+  </div>
+<!-- </div>
+<div class="card-deck mb-4"> -->
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">Vorträge</h4>
+    </div>
+    <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card-body">
+      <i class="fas fa-bullhorn fa-3x text-primary mb-3"></i>
+      <h1 class="card-title text-primary"><b>{% include vortraegeTotal.html %}</b> <small> Vorträge</small></h1>
+      <p class="lead text-primary">der Fakultäten</p>
+      <p class="card-text">Erkundige Dich zu Studiengängen, Fakultäten und vielen mehr</p>
+      </div>
+      <div class="card-footer bg-transparent">
+      <a href="{{ site.url }}/programm/vortraege" class="btn btn-block btn-outline-primary">Zu den Vortägen</a>
+    </div>
+  </div>
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">Führungen</h4>
+    </div>
+    <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card-body">
+      <i class="fas fa-route fa-3x text-primary mb-3"></i>
+      <h1 class="card-title text-primary"><b>{% include fuehrungenTotal.html %}</b> <small>Führungen</small></h1>
+      <p class="lead text-primary">der Fakultäten</p>
+      <p class="card-text">Erlebe verschiedene Studiengänge an der {{ site.company }}</p>
+    </div>
+    <div class="card-footer bg-transparent">
+      <a href="{{ site.url }}/programm/fuehrungen" class="btn btn-block btn-outline-primary">Zu den Führungen</a>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- <hr>
+
+<nav>
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+      {{ item.name }}
+    </a>
+  {% endfor %}
+</nav>
+
+
+<hr>
+
+
+
+{% for site in site.pages %}
+  <li><a href="{{ site.url}}{{ page.url }}">{{ site.title }}</a></li>
+{% endfor %}
+
+<div class="">
+          {%- for path in page_paths -%}
+            {%- assign my_page = site.pages | where: "path", path | first -%}
+            {%- if my_page.title -%}
+            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            {%- endif -%}
+          {%- endfor -%}
+        </div> -->

@@ -1,0 +1,59 @@
+# Infostände
+# Bitte keinen "/" am Ende eines Links
+
+- title: Alles was Sie für Ihre Bewerbung und Ihr Studium wissen müssen!
+  raum: R 0.002
+  items:
+    - title: Studienberatung
+      link: https://hm.edu/studienberatung
+    - title: Immatrikulation
+      link: https://hm.edu/bachelor-bewerbung
+
+- title: Infostände der Hochschule
+  raum: Foyer Lothstraße 64
+  items:
+    - title: Duales Studium
+      link: http://hm.edu/dual
+    # - title: Hochschulentwicklung – Talente fördern!
+    #   subtitle: Deutschlandstipendium, TalentE3, Bayern Mentoring
+    #   link:
+    #     - https://hm.edu/deutschlandstipendium
+    #     - https://hm.edu/talente
+    #     - https://hm.edu/mentoring
+    - title: Deutschlandstipendium
+      subtitle: Hochschulentwicklung – Talente fördern!
+      link: https://hm.edu/deutschlandstipendium
+    - title: TalentE<sup>3</sup>, Bayern Mentoring
+      subtitle: Hochschulentwicklung – Talente fördern!
+      link: https://hm.edu/talente
+    - title: Bayern Mentoring
+      subtitle: Hochschulentwicklung – Talente fördern!
+      link: https://hm.edu/mentoring
+    - title: International Office
+      link: https://hm.edu/international
+    - title: Strascheg Center of Entrepreneurship (SCE)
+      link: https://www.sce.de
+    - title: Studierendenvertretung
+      link: http://stuve.hm.edu
+
+- title: Studentische Projekte
+  raum: Foyer Lothstraße 64
+  items:
+    - title: Aka-Flieg
+      link: http://www.akaflieg.vo.tu-muenchen.de
+    - title: C.lab – a place for creativity
+      link: https://creative-lab-hm.de
+    - title: Hydro2Motion Team
+      link: http://www.hydro2motion.com
+    - title: municHMotorsport Team
+      link: https://www.munichmotorsport.de
+
+- title: Infostände der Kooperationspartner
+  raum: Foyer Lothstraße 64
+  items:
+    - title: Agentur für Arbeit München
+    - title: ArbeiterKind.de
+    - title: Evangelische Hochschulgemeinde
+    - title: Katholische Hochschulgemeinde / Paoso
+    - title: Roncalli Kolleg
+    - title: Studentenwerk München

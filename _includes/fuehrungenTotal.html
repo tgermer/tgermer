@@ -1,0 +1,10 @@
+{% assign total = 0 %}
+{% for items in site.data.programmfk %}
+  {% if items['fuehrungen'].size %}
+    {% for item in items['fuehrungen']%}
+      {% assign total = total | plus: 1 %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{{ total }}

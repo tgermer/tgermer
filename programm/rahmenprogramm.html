@@ -1,0 +1,19 @@
+---
+layout: container
+title: Rahmenprogramm
+---
+
+{% for programmpunkt in site.data.rahmenprogramm %}
+  {% if programmpunkt.start != nil %}
+    <b><p class="text-primary">{{ programmpunkt.start | date: "%H:%M" }}{% if programmpunkt.ende != nil %}–{{ programmpunkt.ende | date: "%H:%M" }}{% endif %}&nbsp;Uhr</p></b>
+  {% endif %}
+  <h3 style="margin-top:-15px; margin-bottom:0px; line-height:1.3">{{ programmpunkt.titel }}</h3>
+  {% if programmpunkt.untertitel != nil %}
+    <h4 style="margin-bottom:0px">{{ programmpunkt.untertitel }}</h4>
+  {% endif %}
+  {% if programmpunkt.veranstalter != nil %}
+    <p>{{ programmpunkt.veranstalter }} <span class="text-primary">&#10217;</span> Raum: {{ programmpunkt.raum | join: " & " }}</p>
+    {% elsif programmpunkt.raum != "" %}
+    <p><span class="text-primary">&#10217;</span> Raum: {{ programmpunkt.raum | join: " & " }}</p>
+  {% endif %}
+{% endfor %}
