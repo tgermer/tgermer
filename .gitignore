@@ -51,6 +51,7 @@ package.json
 
 ### MacOS ###
 *.DS_Store
+.DS_Store
 .AppleDouble
 .LSOverride
 Icon
