@@ -13,26 +13,23 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Studien&shy;informations&shy;tag&nbsp;2020
-title_kurz: Studien&shy;informations&shy;tag
-slogan: Wo studierst Du morgen?
-hashtag: SIT2020
+title: Tristan Germer, M.Sc. – professionelle Informationen
+title_kurz: Tristan Germer
+slogan: Kein Slogan
+hashtag: tristangermer
 date: 2020-03-28
-email: beratung@hm.edu
-phone: 089 1265-1121
-opening_hours: 10:00–15:00
+email: tgermer@me.com
+phone: 0151 22651857
+opening_hours: Keine Öffnungszeiten
 description: >- # this means to ignore newlines until "baseurl:"
-  Lerne die Hochschule München kennen und erkundige Dich über die Möglichkeiten
-  eines Bachelor- oder Masterstudiums. Nächster Studieninformationstag am 28. März 2020.
-company: Hochschule&nbsp;München
+  Alle professionellen Informationen über Tristan Germer, M.Sc.
 author: Studienberatung, Hochschule&nbsp;München
-editorial: Studienberatung
+editorial: Tristan Germer
 publisher: |
-  Hochschule München<br>
-  Munich University of Applied Sciences<br>
-  Lothstraße 34<br>
-  80335 München
-president: Prof. Dr. Martin Leitner
+  Tristan Germer<br>
+  Petrarcastraße 32<br>
+  80933 München
+president:
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 url: "https://tgermer-123456.netlify.com"
@@ -41,14 +38,14 @@ url_pravacy_statement: https://www.hm.edu/sekundaer_navigation/impressum/datensc
 webmaster_email: tgermer@hm.edu
 webmaster_name: Tristan Germer
 logo_nav: /assets/img/Studieninformationstag 2020 links.svg   #logoLinks.svg
-twitter_username: HAW_Muenchen
-linkedin_username: hochschule-muenchen
-facebook_username: HochschuleMuenchen
-youtube_username: HochschuleMuenchen1
-instagram_username: HochschuleMuenchen
+twitter_username:
+linkedin_username:
+facebook_username:
+youtube_username:
+instagram_username:
 
 twitter:
-  username: HAW_Muenchen
+  username: 
   card: summary
 
 
