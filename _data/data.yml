@@ -76,7 +76,7 @@ experience:
   companyUrl: www.lidl.de
   location: München
   title: Angestellter
-  position:
+  position: Stellv. Filialleiter
   description:
     conclusion:
     list:
@@ -185,17 +185,26 @@ skills:
 references:
   - name: Pia Hetzel
     company: Hochschule München
-    position: Leitung Beratung und Immatrikulation; Hochschule München
+    department: Beratung und Immatrikulation
+    position: Leitung
     email: pia.hetzel@hm.edu
   - name: Prof. Dr. Angela Poech
     company: Hochschule München
-    position: Professor für Entrepreneurship; Hochschule München, Fakultät für Be-triebswirtschaft
+    department: Fakultät für Betriebswirtschaft
+    position: Professor für Entrepreneurship
     email: poech@hm.edu
+  - name: Aria Djamschidi
+    company: Apple
+    department:
+    position: Manager Distribution
+    email: djamschidi.a@euro.apple.com
   - name: Anne Cathérine Spindler, M.A.
     company: Hochschule München
-    position: Assistentin Neue Medien; Hochschule München, Fakultät für Betriebs-wirtschaft
+    department: Fakultät für Betriebswirtschaft
+    position: Assistentin Neue Medien
     email: anne.spindler@hm.edu
   - name: Gisela Prey
     company: Hochschule München
-    position: Koordinatorin E-Learning Center; Hochschule München
+    department: E-Learning Center
+    position: Koordinatorin
     email: gisela.prey@hm.edu

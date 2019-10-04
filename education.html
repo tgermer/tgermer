@@ -4,14 +4,15 @@ title: Ausbildung
 ---
 
 {% for education in site.data.data.education %}
-  <p>
+  <p class="mb-0">
     <small>{% if education.endDate != nil %}{{ education.startDate | date: "%b %Y" }}{% else %}seit {{ education.startDate | date: "%B %Y" }}{% endif %}{% if education.endDate != nil %} – {{ education.endDate | date: "%b %Y" }}{%endif%}</small>
-    <br>
-    <b>{% if education.degree != nil %}{{ education.degree }}, {% endif %}{{ education.fieldOfStudy }}</b>
+    </p>
+    <h4>
+    {% if education.degree != nil %}{{ education.degree }}, {% endif %}{{ education.fieldOfStudy }}
     {% if education.majorFieldOfStudy != nil %}
-     – <b>{{ education.majorFieldOfStudy }}</b>{% endif %}
-
-    <br>
+     – {{ education.majorFieldOfStudy }}{% endif %}
+     </h4>
+     <p>
     {{ education.school | upcase }}
     {% if education.schoolUrl != nil %}
     <br>
