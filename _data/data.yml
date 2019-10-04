@@ -1,57 +1,78 @@
 experience:
 - company: Hochschule München
+  companyUrl: www.hm.edu
   location: München
-  title: Angestellter
+  typeOfEmployment: Angestellter
   position:
     - Web 2.0 und Media Beauftragter
     - Projektleiter – Einführung der elektronischen Studierendenakte
   description:
-    - Verbesserung des Nutzererlebnisses in den Bereichen Studierendeund Studieninteressierte der Website
-    - Einführung eines Wissensmanagements (Implementierung und Schulungen)
-    - Entwicklung und Umsetzung von Facebook-Kampagnen
-    - Design, Programmierung und Analyse der Website zum Studieninformationstag
-    - Produktion von Teaser-, Erklär- und Stimmungsfilmen
-    - Verwaltung von Leihgeräte-Pool (Tablets, Notebooks, Kameras)
-    - Entwicklung eines Management-Dashboards der wichtigsten Zahlen der Hochschule München für verschiedenen Zielgruppen
-    - Einführung und Etablierung einer elektronischen Akte im Bereich Studium (Bewerbung und Studierende), Projektleiter
+    conclusion:
+    list:
+      - Verbesserung des Nutzererlebnisses in den Bereichen Studierendeund Studieninteressierte der Website
+      - Einführung eines Wissensmanagements (Implementierung und Schulungen)
+      - Entwicklung und Umsetzung von Facebook-Kampagnen
+      - Design, Programmierung und Analyse der Website zum Studieninformationstag
+      - Produktion von Teaser-, Erklär- und Stimmungsfilmen
+      - Verwaltung von Leihgeräte-Pool (Tablets, Notebooks, Kameras)
+      - Entwicklung eines Management-Dashboards der wichtigsten Zahlen der Hochschule München für verschiedenen Zielgruppen
+      - Einführung und Etablierung einer elektronischen Akte im Bereich Studium (Bewerbung und Studierende), Projektleiter
   startDate: 2013-09-15
   endDate:
 - company: Hochschule München, Steuerlehrgänge Dr. Bannas GmbH
+  companyUrl: www.hm.edu
   location: München
-  title:
-  position: Feier Mitarbeiter
-  description: Produktion von Videostatements für den "Master of Taxation"der Hochschule München in Kooperation mit Steuerlehrgänge Dr. Bannas GmbH
+  typeOfEmployment: Feier Mitarbeiter
+  position:
+  description:
+    conclusion: Produktion von Videostatements für den "Master of Taxation"der Hochschule München in Kooperation mit Steuerlehrgänge Dr. Bannas GmbH
+    list:
   startDate: 2013-05-01
   endDate: 2013-06-31
 - company: Hochschule München, Experconsults
+  companyUrl: www.hm.edu
   location: München
-  title:
-  position: Studentische Hilfskraft
+  typeOfEmployment: Studentische Hilfskraft
+  position:
   description:
   startDate: 2009-08-01
   endDate: 2013-01-31
 - company: WEKU München
   location: München
-  title:
-  position: Selbstständiger Verkäufer
+  companyUrl:
+  typeOfEmployment: Selbstständiger Verkäufer
+  position:
   description:
-    - Vermarktung und Verkauf von Fenstern
-    - Auftragserfassung in selbst geschriebener FileMaker DB
-    - Personalbeschaffung und -ausbildung, Büroleiter
-    - Aufbau des Direktvertiebes mit Firmeninhaber
+    conclusion:
+    list:
+      - Vermarktung und Verkauf von Fenstern
+      - Auftragserfassung in selbst geschriebener FileMaker DB
+      - Personalbeschaffung und -ausbildung, Büroleiter
+      - Aufbau des Direktvertiebes mit Firmeninhaber
   startDate: 2008-03-01
   endDate: 2008-12-31
 - company: VORWERK
+  companyUrl: kobold.vorwerk.de
   location: München
-  title: Selbstständiger Verkäufer
+  typeOfEmployment: Selbstständiger Verkäufer
   position: Beratung und Verkauf
-  description: Selbstständiger Verkäufer von Staubsaugern und Zubehör, Einarbeitung neuer Mitarbeiter
+  description:
+    description: Selbstständiger Verkäufer von Staubsaugern und Zubehör, Einarbeitung neuer Mitarbeiter
+    list:
   startDate: 2004-04-01
   endDate: 2008-06-31
 - company: LIDL
+  companyUrl: www.lidl.de
   location: München
   title: Angestellter
   position:
-  description: Filialverantwortung, Bestellungen, Tagesabrechnungen, Mitarbeitermotivation und &#8209;einarbeitung, Controlling
+  description:
+    conclusion:
+    list:
+      - Filialverantwortung
+      - Bestellungen
+      - Tagesabrechnungen
+      - Mitarbeitermotivation und &#8209;einarbeitung
+      - Controlling
   startDate: 2003-03-01
   endDate: 2004-07-31

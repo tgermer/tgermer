@@ -4,11 +4,32 @@ title: Berufserfahrungen
 ---
 
 {% for experience in site.data.data.experience %}
-  <p><b>{{ experience.position }}</b>
-  {% if experience.position != nil %}<br>{{ experience.position | join: "; "}}{% endif %}
-  <br>{{ experience.company | upcase }}
-  <br>{% if experience.endDate != nil %}{{ experience.startDate | date: "%b %Y" }}{% else %}seit {{ experience.startDate | date: "%B %Y" }}{% endif %}{% if experience.endDate != nil %} – {{ experience.endDate | date: "%b %Y" }}{%endif%}</p>
-  <p>{% if experience.description != nil %}{{ experience.description | join: ";<br>" }}{% endif %}</p>
+  <p>
+    <small>{% if experience.endDate != nil %}{{ experience.startDate | date: "%b %Y" }}{% else %}seit {{ experience.startDate | date: "%B %Y" }}{% endif %}{% if experience.endDate != nil %} – {{ experience.endDate | date: "%b %Y" }}{%endif%}</small>
+    {% if experience.position != nil %}
+    <br>
+    <b>{{ experience.position | join: "<br>"  }}</b>{% endif %}
+    {% if experience.typeOfEmployment != nil %}
+    <br>
+    <b>{{ experience.typeOfEmployment }}</b>{% endif %}
+
+    <br>
+    {{ experience.company | upcase }}
+    {% if experience.companyUrl != nil %}
+    <br>
+    <a href="http://{{ experience.companyUrl }}" target="_blank">{{ experience.companyUrl }}</a>{% endif %}
+  </p>
+  <p>
+    {% if experience.description.conclusion != nil %}{{ experience.description.conclusion }}<br>{% endif %}
+
+    {% if experience.description.list != nil %}
+    <ul>
+      {% for item in experience.description.list %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </p>
   <hr>
 
 
