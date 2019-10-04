@@ -19,13 +19,11 @@ title: Ausbildung
   </p>
   <p>
     {% if education.thesis.title != nil %}
-    {{ education.thesis.title }}
+    Thesis: {{ education.thesis.title }}
     {% if education.thesis.fullTextUrl != nil %}
     <br><small>Volltext: <a href="http://{{ education.thesis.fullTextUrl }}" target="_blank">{{ education.thesis.fullTextUrl }}</a></small>
     {% endif %}
     {% endif %}
-
-
   </p>
   <hr>
 {% endfor %}

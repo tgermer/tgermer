@@ -93,21 +93,36 @@ education:
   - school: Donau-Universität Krems
     schoolUrl: www.donau-uni.ac.at
     location: Krems, Österreich
-    startDate: 2016
-    endDate: 2018
+    startDate: 2016-04-11
+    endDate: 2018-05-09
     fieldOfStudy: Technische Kommunikation
     degree: Master of Science (MSc)
+    grade:
     thesis:
       title: Methoden der Technischen Dokumentation, angewendet in der Verwaltung von Hochschulen für angewandte Wissenschaften
       fullTextUrl: permalink.obvsg.at/duk/YC00347036
+      grade: 1.0
   - school: Hochschule München
     schoolUrl: www.hm.edu
     location: München, Deutschland
-    startDate: 2009
-    endDate: 2013
+    startDate: 2009-03-15
+    endDate: 2013-09-30
     fieldOfStudy: Betriebswirtschaft
     majorFieldOfStudy: Projektberatung und Projektmanagement
     degree: Bachelor of Arts (BA)
+    grade: 2.6
     thesis:
       title: BLENDED LEARNING MIT DEM APPLE IPAD. Einsatzmöglichkeiten und einfache Umsetzungen am Beispiel eines Präsentationstrainings
+      fullTextUrl:
+      grade: 1.7
+  - school: Fachhochschule München
+    schoolUrl: www.fh-muenchen.de
+    location: München, Deutschland
+    startDate: 2001-10-01
+    endDate: 2003-03-14
+    fieldOfStudy: Fahrzeugtechnik und Flugzeugtechnik
+    majorFieldOfStudy:
+    degree: Diplom (Dipl.-Ing.)
+    thesis:
+      title:
       fullTextUrl:
