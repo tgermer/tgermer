@@ -27,6 +27,8 @@ experience:
   description:
     conclusion: Produktion von Videostatements für den "Master of Taxation"der Hochschule München in Kooperation mit Steuerlehrgänge Dr. Bannas GmbH
     list:
+      - Unterstützung des Weiterbildungszentrums der Hochschule München bei der Vorlesungsübertragung (Mai–Juli 2013)
+      - Produktion von Videostatements für den „Master of Taxation“ der Hochschule München in Kooperation mit Steuerlehrgänge Dr. Bannas GmbH (Februar–Juni 2013)
   startDate: 2013-05-01
   endDate: 2013-06-31
 - company: Hochschule München, Experconsults
@@ -35,6 +37,15 @@ experience:
   typeOfEmployment: Studentische Hilfskraft
   position:
   description:
+    conclusion:
+    list:
+      - Zertifikat ETHIKUM unter Leitung von Prof. Dr. Angela Poech (Oktober 2012–Januar 2013)
+      - Persönlicher Assistent für Prof. Dr. Angela Poech (Oktober 2012–Januar 2013)
+      - Multimedia in der Fakultät 10 für Betriebswirtschaft unter Leitung von Cornelia Mahr (Oktober 2012–Januar 2013)
+      - Live-Übertragung Master Wirtschaftsförderung mit ExperConsult (Oktober 2012–Januar 2013)
+      - E-Learning (August 2011–Juli 2012)
+      - Moodle und weitere LMS, E-Learning Tools, Ticket-System, Schulungen, ScreenCasts, persönliche Beratung, Technik, Newsletter, Video-plattform
+      - Persönlicher Assistent von Prof. Dr. Angela Poech (August 2009–Juli 2010)
   startDate: 2009-08-01
   endDate: 2013-01-31
 - company: WEKU München
@@ -76,3 +87,27 @@ experience:
       - Controlling
   startDate: 2003-03-01
   endDate: 2004-07-31
+
+
+education:
+  - school: Donau-Universität Krems
+    schoolUrl: www.donau-uni.ac.at
+    location: Krems, Österreich
+    startDate: 2016
+    endDate: 2018
+    fieldOfStudy: Technische Kommunikation
+    degree: Master of Science (MSc)
+    thesis:
+      title: Methoden der Technischen Dokumentation, angewendet in der Verwaltung von Hochschulen für angewandte Wissenschaften
+      fullTextUrl: permalink.obvsg.at/duk/YC00347036
+  - school: Hochschule München
+    schoolUrl: www.hm.edu
+    location: München, Deutschland
+    startDate: 2009
+    endDate: 2013
+    fieldOfStudy: Betriebswirtschaft
+    majorFieldOfStudy: Projektberatung und Projektmanagement
+    degree: Bachelor of Arts (BA)
+    thesis:
+      title: BLENDED LEARNING MIT DEM APPLE IPAD. Einsatzmöglichkeiten und einfache Umsetzungen am Beispiel eines Präsentationstrainings
+      fullTextUrl:
