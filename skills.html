@@ -2,3 +2,15 @@
 layout: container
 title: Kenntnisse und Fähigkeiten
 ---
+
+
+{% for catagorie in site.data.data.skills %}
+  <h3>{{ catagorie.catagorie }}</h3>
+  <ul class="list-inline">
+  {% assign itemsSort = catagorie.items | sort %}
+  {% for item in itemsSort %}
+    <li class="list-inline-item">{{ item }}</li>
+    {% endfor %}
+  </ul>
+
+{% endfor %}

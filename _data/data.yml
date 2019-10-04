@@ -101,7 +101,7 @@ education:
     thesis:
       title: Methoden der Technischen Dokumentation, angewendet in der Verwaltung von Hochschulen für angewandte Wissenschaften
       fullTextUrl: permalink.obvsg.at/duk/YC00347036
-      grade: 1.0
+      grade:
   - school: Hochschule München
     schoolUrl: www.hm.edu
     location: München, Deutschland
@@ -126,3 +126,76 @@ education:
     thesis:
       title:
       fullTextUrl:
+
+skills:
+  - catagorie: Branchenwissen #industryKnowledge
+    items:
+    - Projektmanagement
+    - Direkt Marketing
+    - Blended Learning
+    - Fotografie
+    - Sales
+    - Web-Entwicklung
+    - Motion Graphics
+  - catagorie: Tools & Technologien #toolsTechnologies
+    items:
+    - HTML
+    - XML
+    - YAML
+    - JSON
+    - CSS
+    - PHP
+    - SASS
+    - LESS
+    - DITA
+    - JavaScript
+    - FileMaker
+    - SQL
+    - Automator/Apple Script
+    - Microsoft Word
+    - Microsoft Excel
+    - Microsoft Access
+    - Microsoft Outlook
+    #- MS Office (Word, Excel, Access, PowerPoint, Outlook)
+    - Apple Pages
+    - Apple Keynote
+    - Apple Numbers
+    - VBA
+    - Adobe Photoshop
+    - Adobe Dreamweaver
+    - Adobe Illustrator
+    - Adobe InDesign
+    - macOS
+    - Windows
+    - macOS Server
+    - iOS
+    - LATEX
+    - Moodle und weitere LMS
+    - FileMaker
+    - Oracle APEX
+    - Adobe Connect
+    - Apple Final Cut Pro X
+    - Apple Motion
+    - Newsletter-Tools
+  - catagorie: Sprachen #language
+    items:
+    - Deutsch (Mutterspache)
+    - Englisch (Verhandlungssicher)
+
+references:
+  - name: Pia Hetzel
+    company: Hochschule München
+    position: Leitung Beratung und Immatrikulation; Hochschule München
+    email: pia.hetzel@hm.edu
+  - name: Prof. Dr. Angela Poech
+    company: Hochschule München
+    position: Professor für Entrepreneurship; Hochschule München, Fakultät für Be-triebswirtschaft
+    email: poech@hm.edu
+  - name: Anne Cathérine Spindler, M.A.
+    company: Hochschule München
+    position: Assistentin Neue Medien; Hochschule München, Fakultät für Betriebs-wirtschaft
+    email: anne.spindler@hm.edu
+  - name: Gisela Prey
+    company: Hochschule München
+    position: Koordinatorin E-Learning Center; Hochschule München
+    email: gisela.prey@hm.edu
