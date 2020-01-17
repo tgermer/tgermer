@@ -3,10 +3,4 @@ layout: container
 title: Referenzen
 ---
 
-{% for reference in site.data.data.references %}
-  <h4>{{ reference.name }}</h4>
-  <p>{{ reference.company | upcase }}
-    <br>{{ reference.position }}{% if reference.department != nil %}; {{ reference.department }}{% endif %}
-    <br><a href="mailto:{{ referece.email }}">{{ reference.email }}</a></p>
-    <hr>
-{% endfor %}
+{% include references.html %}

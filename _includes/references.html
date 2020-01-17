@@ -1,0 +1,16 @@
+{% for reference in site.data.data.references %}
+<div class="row mt-3">
+  <div class="col-md-4 col-lg-3 col-xl-2">
+    <p class="mb-0 mt-1">
+      <!-- {{ catagorie.catagorie }} -->
+    </p>
+  </div>
+  <div class="col-md-8 col-lg-9 col-xl-10">
+    <h4>{{ reference.name }}</h4>
+    <p>{{ reference.company | upcase }}
+      <br>{{ reference.position }}{% if reference.department != nil %}; {{ reference.department }}{% endif %}
+      <br><a href="mailto:{{ referece.email }}">{{ reference.email }}</a></p>
+    <hr>
+  </div>
+</div>
+{% endfor %}
