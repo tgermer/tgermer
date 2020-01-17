@@ -1,3 +1,4 @@
+# Berufserfahrungen
 experience:
 - company: Hochschule München
   companyUrl: www.hm.edu
@@ -19,7 +20,7 @@ experience:
       - Einführung und Etablierung einer elektronischen Akte im Bereich Studium (Bewerbung und Studierende), Projektleiter
   startDate: 2013-09-15
   endDate:
-- company: Hochschule München, Steuerlehrgänge Dr. Bannas GmbH
+- company: Hochschule München, Steuerlehrgänge Dr. Bannas GmbH
   companyUrl: www.hm.edu
   location: München
   typeOfEmployment: Feier Mitarbeiter
@@ -28,7 +29,7 @@ experience:
     conclusion: Produktion von Videostatements für den "Master of Taxation"der Hochschule München in Kooperation mit Steuerlehrgänge Dr. Bannas GmbH
     list:
       - Unterstützung des Weiterbildungszentrums der Hochschule München bei der Vorlesungsübertragung (Mai–Juli 2013)
-      - Produktion von Videostatements für den „Master of Taxation“ der Hochschule München in Kooperation mit Steuerlehrgänge Dr. Bannas GmbH (Februar–Juni 2013)
+      - Produktion von Videostatements für den „Master of Taxation“ der Hochschule München in Kooperation mit Steuerlehrgänge Dr. Bannas GmbH (Februar–Juni 2013)
   startDate: 2013-05-01
   endDate: 2013-06-31
 - company: Hochschule München, Experconsults
@@ -88,7 +89,7 @@ experience:
   startDate: 2003-03-01
   endDate: 2004-07-31
 
-
+# Ausbildung
 education:
   - school: Donau-Universität Krems
     schoolUrl: www.donau-uni.ac.at
@@ -126,6 +127,24 @@ education:
     thesis:
       title:
       fullTextUrl:
+
+# Weiterbildung
+furtherEducation:
+  - school: TÜV SÜD Akademie
+    schoolUrl: www.tuvsud.com/akademie
+    location: München
+    startDate: 2018-03-09
+    endDate: 2018-03-09
+    fieldOfStudy: Qualitätsmanagement-Beauftragter (QMB-TÜV)
+    degree:
+  - school: TÜV SÜD Akademie
+    schoolUrl: www.tuvsud.com/akademie
+    location: München
+    startDate: 2018-03-02
+    endDate: 2018-03-02
+    fieldOfStudy: Qualitätsmanagement-Fachkraft (QMF-TÜV)
+    degree:
+
 
 skills:
   - catagorie: Branchenwissen #industryKnowledge
@@ -181,7 +200,14 @@ skills:
     items:
     - Deutsch (Mutterspache)
     - Englisch (Verhandlungssicher)
+  - catagorie: Interessen
+    items:
+    - Bergsteigen
+    - Ausdauersport
+    - Reisen
+    - Kochen
 
+# Referenzen
 references:
   - name: Pia Hetzel
     company: Hochschule München
