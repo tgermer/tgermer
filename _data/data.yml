@@ -26,7 +26,7 @@ experience:
   typeOfEmployment: Feier Mitarbeiter
   position:
   description:
-    conclusion: Produktion von Videostatements für den "Master of Taxation"der Hochschule München in Kooperation mit Steuerlehrgänge Dr. Bannas GmbH
+    conclusion: Produktion von Videostatements für den "Master of Taxation" der Hochschule München in Kooperation mit Steuerlehrgänge Dr. Bannas GmbH
     list:
       - Unterstützung des Weiterbildungszentrums der Hochschule München bei der Vorlesungsübertragung (Mai–Juli 2013)
       - Produktion von Videostatements für den „Master of Taxation“ der Hochschule München in Kooperation mit Steuerlehrgänge Dr. Bannas GmbH (Februar–Juni 2013)
@@ -150,6 +150,8 @@ skills:
   - catagorie: Branchenwissen #industryKnowledge
     items:
     - Projektmanagement
+    - Änderungsmanagement
+    - Innovationsmanagement
     - Direkt Marketing
     - Blended Learning
     - Fotografie
