@@ -1,0 +1,31 @@
+{% for education in site.data.data.furtherEducation %}
+<div class="row mt-3">
+  <div class="col-md-4 col-lg-3 col-xl-2">
+    <p class="mb-0 mt-1">
+      {% if education.endDate != nil %}{{ education.startDate | date: "%m/%Y" }}{% else %}seit {{ education.startDate | date: "%m/%Y" }}{% endif %}{% if education.endDate != nil %}–{{ education.endDate | date: "%m/%Y" }}{%endif%}
+    </p>
+  </div>
+  <div class="col-md-8 col-lg-9 col-xl-10">
+    <h4>
+      {% if education.degree != nil %}{{ education.degree }}, {% endif %}{{ education.fieldOfStudy }}
+      {% if education.majorFieldOfStudy != nil %}
+      – {{ education.majorFieldOfStudy }}{% endif %}
+    </h4>
+    <p>
+      {{ education.school | upcase }}
+      {% if education.schoolUrl != nil %}
+      <br>
+      <a href="http://{{ education.schoolUrl }}" target="_blank">{{ education.schoolUrl }}</a>{% endif %}
+    </p>
+    <p>
+      {% if education.thesis.title != nil %}
+      Thesis: {{ education.thesis.title }}
+      {% if education.thesis.fullTextUrl != nil %}
+      <br><small>Volltext: <a href="http://{{ education.thesis.fullTextUrl }}" target="_blank">{{ education.thesis.fullTextUrl }}</a></small>
+      {% endif %}
+      {% endif %}
+    </p>
+    <hr>
+  </div>
+</div>
+{% endfor %}

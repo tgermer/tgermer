@@ -3,33 +3,5 @@ layout: container
 title: Berufserfahrungen
 ---
 
-{% for experience in site.data.data.experience %}
-<p class="mb-0">
-  <small>{% if experience.endDate != nil %}{{ experience.startDate | date: "%b %Y" }}{% else %}seit {{ experience.startDate | date: "%B %Y" }}{% endif %}{% if experience.endDate != nil %} – {{ experience.endDate | date: "%b %Y" }}{%endif%}</small>
-</p>
-<h4>
-{% if experience.position != nil %}
-  {{ experience.position | join: "<br>"  }}{% endif %}
-  {% if experience.typeOfEmployment != nil %}
-  {% if experience.position != nil %}<br>{% endif %}
-  {{ experience.typeOfEmployment }}{% endif %}
-</h4>
-<p>
-  {{ experience.company | upcase }}
-  {% if experience.companyUrl != nil %}
-  <br>
-  <a href="http://{{ experience.companyUrl }}" target="_blank">{{ experience.companyUrl }}</a>{% endif %}
-</p>
-<p>
-  {% if experience.description.conclusion != nil %}{{ experience.description.conclusion }}<br>{% endif %}
 
-  {% if experience.description.list != nil %}
-  <ul>
-    {% for item in experience.description.list %}
-    <li>{{ item }}</li>
-    {% endfor %}
-  </ul>
-  {% endif %}
-</p>
-<hr>
-{% endfor %}
+{% include experience.html %}

@@ -3,28 +3,4 @@ layout: container
 title: Ausbildung
 ---
 
-{% for education in site.data.data.education %}
-  <p class="mb-0">
-    <small>{% if education.endDate != nil %}{{ education.startDate | date: "%b %Y" }}{% else %}seit {{ education.startDate | date: "%B %Y" }}{% endif %}{% if education.endDate != nil %} – {{ education.endDate | date: "%b %Y" }}{%endif%}</small>
-    </p>
-    <h4>
-    {% if education.degree != nil %}{{ education.degree }}, {% endif %}{{ education.fieldOfStudy }}
-    {% if education.majorFieldOfStudy != nil %}
-     – {{ education.majorFieldOfStudy }}{% endif %}
-     </h4>
-     <p>
-    {{ education.school | upcase }}
-    {% if education.schoolUrl != nil %}
-    <br>
-    <a href="http://{{ education.schoolUrl }}" target="_blank">{{ education.schoolUrl }}</a>{% endif %}
-  </p>
-  <p>
-    {% if education.thesis.title != nil %}
-    Thesis: {{ education.thesis.title }}
-    {% if education.thesis.fullTextUrl != nil %}
-    <br><small>Volltext: <a href="http://{{ education.thesis.fullTextUrl }}" target="_blank">{{ education.thesis.fullTextUrl }}</a></small>
-    {% endif %}
-    {% endif %}
-  </p>
-  <hr>
-{% endfor %}
+{% include education.html %}
