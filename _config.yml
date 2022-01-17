@@ -13,28 +13,29 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Tristan Germer, M.Sc. – professionelle Informationen
+title: Tristan Germer – professional information
 title_kurz: Tristan Germer
-slogan: „Wenn das Schicksal uns eine Zitrone gibt – machen wir Zitronenlimonade daraus.“ — Dale Carnegie
+slogan: "When fate hands you lemons, make lemonade. – Dale Carnegie"
+slogan_de: „Wenn das Schicksal uns eine Zitrone gibt – machen wir Zitronenlimonade daraus.“ — Dale Carnegie
 hashtag: tristangermer
 date: 2020-03-28
 email: tgermer@me.com
 phone: 0151 22651857
-opening_hours: Keine Öffnungszeiten
 description: >- # this means to ignore newlines until "baseurl:"
-  Alle professionellen Informationen über Tristan Germer, M.Sc.
-author: Studienberatung, Hochschule&nbsp;München
+  Professional information about Tristan Germer, M.Sc.
+author: Tristan Germer
+about: "Made in Germany, married to an other German. Likes IT, structuring, automation, hiking, skiing. Working at the Munich University of Applied Sciences (HM)."
 editorial: Tristan Germer
 publisher: |
   Tristan Germer<br>
   Petrarcastraße 32<br>
   80933 München
-president:
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
-url: "https://tgermer-123456.netlify.com"
-url_imprint: https://www.hm.edu/sekundaer_navigation/impressum
-url_pravacy_statement: https://www.hm.edu/sekundaer_navigation/impressum/datenschutz
+#url: "https://tgermer-123456.netlify.com"
+url: "https://tristan-germer.de/dev"
+url_imprint:
+url_pravacy_statement:
 webmaster_email: tgermer@hm.edu
 webmaster_name: Tristan Germer
 logo_nav: /assets/img/Studieninformationstag 2020 links.svg   #logoLinks.svg
@@ -56,7 +57,7 @@ social:
     - https://www.facebook.com/HochschuleMuenchen
     - https://www.linkedin.com/school/hochschule-muenchen
 
-lang: de_DE
+lang: en_US
 
 show_excerpts: true # set to true to show excerpts on the news(post) site
 
@@ -71,7 +72,17 @@ plugins:
   - jekyll-seo-tag
   #- jekyll-paginate
   - jekyll-feed
+  - jekyll-typogrify
 
+# GLYNN – FTP Uploader
+# gem install glynn --source http://gemcutter.org
+# https://github.com/dmathieu/glynn
+ftp_host: 'web713.can11.de'
+ftp_dir: 'tristan-germer.de/dev'
+ftp_passive: true
+ftp_username: 'web713'
+ftp_password: 'Otis#1910'
+# run glynn
 
 defaults:
   # jekyll-seo-tag START

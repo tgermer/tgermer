@@ -1,0 +1,42 @@
+{% for experience in site.data.cv_en.experience %}
+<div class="row mt-3">
+  <div class="col-md-4 col-lg-3 col-xl-2">
+    <p class="mb-0 mt-1">
+      {% if experience.endDate == experience.startDate %}
+          {{ experience.startDate | date: "%m/%Y" }}
+        {% elsif experience.endDate == nil %}
+          since {{ experience.startDate | date: "%m/%Y" }}
+        {% else %}
+          {{ experience.startDate | date: "%m/%Y" }}–{{ experience.endDate | date: "%m/%Y" }}
+      {%endif%}
+    </p>
+  </div>
+  <div class="col-md-8 col-lg-9 col-xl-10">
+    <h4>
+      {% if experience.position != nil %}
+      {{ experience.position | join: "<br>" | titlecase }}{% endif %}
+      {% if experience.typeOfEmployment != nil %}
+      {% if experience.position != nil %}<br>{% endif %}
+      {{ experience.typeOfEmployment | titlecase }}{% endif %}
+    </h4>
+    <p>
+      {{ experience.company | upcase }}
+      {% if experience.companyUrl != nil %}
+      <br>
+      <a href="http://{{ experience.companyUrl }}" target="_blank">{{ experience.companyUrl }}</a>{% endif %}
+    </p>
+    <p>
+      {% if experience.description.conclusion != nil %}{{ experience.description.conclusion }}<br>{% endif %}
+
+      {% if experience.description.list != nil %}
+      <ul>
+        {% for item in experience.description.list %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </p>
+    <hr>
+  </div>
+</div>
+{% endfor %}

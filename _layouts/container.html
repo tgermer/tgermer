@@ -5,8 +5,16 @@ layout: default
 <article class="post container">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <h1 class="post-title">{% if page.lang == 'de' %}{{ page.title | escape }}{% else %}{{ page.title | titlecase | escape }}{% endif %}</h1>
   </header>
+  <p class="float-end small d-print-none">
+    {% if page.lang == 'en' %}
+    <a href="/cv_de/" >View {{ page.title | titlecase }} in German</a>
+    {% elsif page.lang == 'de' %}
+    <a href="/cv_en/">{{ page.title }} auf Englisch ansehen</a>
+    {% endif %}
+  </p>
+
 
   <div class="post-content">
     {{ content }}

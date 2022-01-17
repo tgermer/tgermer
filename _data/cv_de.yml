@@ -1,0 +1,239 @@
+# Berufserfahrungen
+experience:
+- company: Hochschule München
+  companyUrl: www.hm.edu
+  location: München
+  typeOfEmployment: Angestellter
+  position:
+    - Projektleiter, Produktmanager Studierendenakte/PRIMUSS
+  description:
+    conclusion:
+    list:
+      - Einführung und Etablierung der elektronischen Akte im Bereich Studium (Bewerbung und Studierende), Projektleiter
+      - Entwicklung von Workflows für das Dokumentenmanagementsystem
+      - Entwicklung eines Management-Dashboards der wichtigsten Zahlen der Hochschule München für verschiedene Zielgruppen
+      - Verbesserung des Nutzererlebnisses in den Bereichen Studierende und Studieninteressierte der Website
+      - Einführung eines Wissensmanagements (Implementierung und Schulungen)
+      - Entwicklung und Umsetzung von Facebook-Kampagnen
+      - Design, Programmierung und Analyse der Website zum Studieninformationstag
+      - Produktion von Teaser-, Erklär- und Stimmungsfilmen
+      - Verwaltung von Leihgeräte-Pool (Tablets, Notebooks, Kameras)
+      - Entwicklung eines Management-Dashboards der wichtigsten Zahlen der Hochschule München für verschiedenen Zielgruppen
+      - Einführung und Etablierung einer elektronischen Akte im Bereich Studium (Bewerbung und Studierende), Projektleiter
+  startDate: 2013-09-15
+  endDate:
+- company: Hochschule München, Steuerlehrgänge Dr. Bannas GmbH
+  companyUrl: www.hm.edu
+  location: München
+  typeOfEmployment: Feier Mitarbeiter
+  position:
+  description:
+    conclusion: Produktion von Videostatements für den "Master of Taxation" der Hochschule München in Kooperation mit Steuerlehrgänge Dr. Bannas GmbH
+    list:
+      - Unterstützung des Weiterbildungszentrums der Hochschule München bei der Vorlesungsübertragung (Mai–Juli 2013)
+      - Produktion von Videostatements für den „Master of Taxation“ der Hochschule München in Kooperation mit Steuerlehrgänge Dr. Bannas GmbH (Februar–Juni 2013)
+  startDate: 2013-05-01
+  endDate: 2013-06-31
+- company: Hochschule München, Experconsults
+  companyUrl: www.hm.edu
+  location: München
+  typeOfEmployment: Studentische Hilfskraft
+  position:
+  description:
+    conclusion:
+    list:
+      - Zertifikat ETHIKUM unter Leitung von Prof. Dr. Angela Poech (Oktober 2012–Januar 2013)
+      - Persönlicher Assistent für Prof. Dr. Angela Poech (Oktober 2012–Januar 2013)
+      - Multimedia in der Fakultät 10 für Betriebswirtschaft unter Leitung von Cornelia Mahr (Oktober 2012–Januar 2013)
+      - Live-Übertragung Master Wirtschaftsförderung mit ExperConsult (Oktober 2012–Januar 2013)
+      - E-Learning (August 2011–Juli 2012)
+      - Moodle und weitere LMS, E-Learning Tools, Ticket-System, Schulungen, ScreenCasts, persönliche Beratung, Technik, Newsletter, Video-plattform
+      - Persönlicher Assistent von Prof. Dr. Angela Poech (August 2009–Juli 2010)
+  startDate: 2009-08-01
+  endDate: 2013-01-31
+- company: WEKU München
+  location: München
+  companyUrl:
+  typeOfEmployment: Selbstständiger Verkäufer
+  position:
+  description:
+    conclusion:
+    list:
+      - Vermarktung und Verkauf von Fenstern
+      - Auftragserfassung in selbst geschriebener FileMaker DB
+      - Personalbeschaffung und -ausbildung, Büroleiter
+      - Aufbau des Direktvertiebes mit Firmeninhaber
+  startDate: 2008-03-01
+  endDate: 2008-12-31
+- company: VORWERK
+  companyUrl: kobold.vorwerk.de
+  location: München
+  typeOfEmployment: Selbstständiger Verkäufer
+  position: Beratung und Verkauf
+  description:
+    description: Selbstständiger Verkäufer von Staubsaugern und Zubehör, Einarbeitung neuer Mitarbeiter
+    list:
+  startDate: 2004-04-01
+  endDate: 2008-06-31
+- company: LIDL
+  companyUrl: www.lidl.de
+  location: München
+  title: Angestellter
+  position: Stellv. Filialleiter
+  description:
+    conclusion:
+    list:
+      - Filialverantwortung
+      - Bestellungen
+      - Tagesabrechnungen
+      - Mitarbeitermotivation und &#8209;einarbeitung
+      - Controlling
+  startDate: 2003-03-01
+  endDate: 2004-07-31
+
+# Ausbildung
+education:
+  - school: Donau-Universität Krems
+    schoolUrl: www.donau-uni.ac.at
+    location: Krems, Österreich
+    startDate: 2016-04-11
+    endDate: 2018-05-09
+    fieldOfStudy: Technische Kommunikation
+    degree: Master of Science (MSc)
+    grade:
+    thesis:
+      title: Methoden der Technischen Dokumentation, angewendet in der Verwaltung von Hochschulen für angewandte Wissenschaften
+      fullTextUrl: permalink.obvsg.at/duk/YC00347036
+      grade:
+  - school: Hochschule München
+    schoolUrl: www.hm.edu
+    location: München, Deutschland
+    startDate: 2009-03-15
+    endDate: 2013-09-30
+    fieldOfStudy: Betriebswirtschaft
+    majorFieldOfStudy: Projektberatung und Projektmanagement
+    degree: Bachelor of Arts (BA)
+    grade: 2.6
+    thesis:
+      title: BLENDED LEARNING MIT DEM APPLE IPAD. Einsatzmöglichkeiten und einfache Umsetzungen am Beispiel eines Präsentationstrainings
+      fullTextUrl:
+      grade: 1.7
+  - school: Fachhochschule München
+    schoolUrl: www.fh-muenchen.de
+    location: München, Deutschland
+    startDate: 2001-10-01
+    endDate: 2003-03-14
+    fieldOfStudy: Fahrzeugtechnik
+    majorFieldOfStudy:
+    degree: Diplom (Dipl.-Ing.)
+    thesis:
+      title:
+      fullTextUrl:
+
+# Weiterbildung
+furtherEducation:
+  - school: TÜV SÜD Akademie
+    schoolUrl: www.tuvsud.com/akademie
+    location: München
+    startDate: 2018-03-09
+    endDate: 2018-03-09
+    fieldOfStudy: Qualitätsmanagement-Beauftragter (QMB-TÜV)
+    degree:
+  - school: TÜV SÜD Akademie
+    schoolUrl: www.tuvsud.com/akademie
+    location: München
+    startDate: 2018-03-02
+    endDate: 2018-03-02
+    fieldOfStudy: Qualitätsmanagement-Fachkraft (QMF-TÜV)
+    degree:
+
+
+skills:
+  - catagorie: Branchenwissen #industryKnowledge
+    items:
+    - Projektmanagement
+    - Änderungsmanagement
+    - Innovationsmanagement
+    - Direkt Marketing
+    - Blended Learning
+    - Fotografie
+    - Sales
+    - Web-Entwicklung
+    - Motion Graphics
+  - catagorie: Tools & Technologien #toolsTechnologies
+    items:
+    - HTML
+    - XML
+    - YAML
+    - JSON
+    - CSS
+    - PHP
+    - SASS
+    - LESS
+    - DITA
+    - JavaScript
+    - FileMaker
+    - SQL
+    - Automator/Apple Script/Shortcuts
+    - Microsoft Word
+    - Microsoft Excel
+    - Microsoft Access
+    - Microsoft Outlook
+    #- MS Office (Word, Excel, Access, PowerPoint, Outlook)
+    - Apple Pages
+    - Apple Keynote
+    - Apple Numbers
+    - VBA
+    - Adobe Photoshop
+    - Adobe Dreamweaver
+    - Adobe Illustrator
+    - Adobe InDesign
+    - macOS
+    - Windows
+    - macOS Server
+    - iOS
+    - LATEX
+    - Moodle und weitere LMS
+    - FileMaker
+    - Oracle APEX
+    - Adobe Connect
+    - Apple Final Cut Pro X
+    - Apple Motion
+    - Newsletter-Tools
+  - catagorie: Sprachen #language
+    items:
+    - Deutsch (Mutterspache)
+    - Englisch (Verhandlungssicher)
+  - catagorie: Interessen
+    items:
+    - Wandern
+    - Radfahren
+    - Skifahren
+
+# Referenzen
+references:
+  - name: Pia Hetzel
+    company: Hochschule München
+    department: Beratung und Immatrikulation
+    position: Leitung
+    email: pia.hetzel@hm.edu
+  - name: Prof. Dr. Angela Poech
+    company: Hochschule München
+    department: Fakultät für Betriebswirtschaft
+    position: Professor für Entrepreneurship
+    email: poech@hm.edu
+  - name: Aria Djamschidi
+    company: Apple
+    department:
+    position: Senior Distribution Manager
+    email: djamschidi.a@euro.apple.com
+  # - name: Anne Cathérine Spindler, M.A.
+  #   company: Hochschule München
+  #   department: Fakultät für Betriebswirtschaft
+  #   position: Assistentin Neue Medien
+  #   email: anne.spindler@hm.edu
+  # - name: Gisela Prey
+  #   company: Hochschule München
+  #   department: E-Learning Center
+  #   position: Koordinatorin
+  #   email: gisela.prey@hm.edu

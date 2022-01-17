@@ -1,0 +1,241 @@
+# Berufserfahrungen
+experience:
+- company: Munich University of Applied Sciences
+  companyUrl: www.hm.edu
+  location: Munich
+  typeOfEmployment: Employee
+  position:
+    - Project Manager, Product Manager Document Management System File/PRIMUSS
+  description:
+    conclusion:
+    list:
+      - Introduction and establishment of the document management system in the field of studies (application and students), project manager
+      - Development of workflows for the document management system
+      - Development of a management dashboard for the most important figures of the Munich University of Applied Sciences for different target groups
+      - Improving the user experience in the areas of students and prospective students of the website
+      - Introduction of knowledge management (implementation and training)
+      - Development and implementation of Facebook campaigns
+      - Design, programming and analysis of the study information day website
+      - Production of teaser, explanatory and mood films
+      - Management of rental equipment pool (tablets, notebooks, cameras)
+  startDate: 2013-09-15
+  endDate:
+- company: Munich University of Applied Sciences, Steuerlehrgänge Dr. Bannas GmbH
+  companyUrl: www.hm.edu
+  location: Munich
+  typeOfEmployment: Freelancer
+  position:
+  description:
+    conclusion: Production of video statements for the "Master of Taxation" of the Munich University of Applied Sciences in cooperation with Steuerlehrgänge Dr. Bannas GmbH
+    list:
+      - Support of the Continuing Education Center of the Munich Universi-ty of Applied Sciences during the lecture transmission (May–July 2013)
+      - Production of video statements for the "Master of Taxation" of the Munich University of Applied Sciences in cooperation with Steuerlehrgänge Dr. Bannas GmbH (February–June 2013)
+  startDate: 2013-05-01
+  endDate: 2013-06-31
+- company: Munich University of Applied Sciences, Experconsults
+  companyUrl: www.hm.edu
+  location: Munich
+  typeOfEmployment: Student Assistant
+  position:
+  description:
+    conclusion:
+    list:
+      - Certificate ETHIKUM under the direction of Prof. Dr. Angela Poech (October 2012–January 2013)
+      - Personal Assistant to Prof. Dr. Angela Poech (October 2012–January 2013)
+      - Multimedia FK 10 BWL under the direction of Cornelia Mahr (October 2012–January 2013)
+      - Live broadcast Master Economic Development with ExperConsult (October 2012–January 2013)
+      - E-Learning (August 2011–Juli 2012)
+      - Moodle and other LMS, e-learning tools, ticket system, training, ScreenCasts, personal advice, technology, newsletter, video platform
+      - Personal Assistant to Prof. Dr. Angela Poech (August 2009–July 2010)
+  startDate: 2009-08-01
+  endDate: 2013-01-31
+- company: WEKU München
+  location: Munich
+  companyUrl:
+  typeOfEmployment: Self-employed salesman
+  position:
+  description:
+    conclusion:
+    list:
+      - Marketing and sale of windows
+      - Order entry in self-written FileMaker database
+      - Recruitment and training
+      - Office Manager
+      - Development of direct sales with Dirk Bienert
+  startDate: 2008-03-01
+  endDate: 2008-12-31
+- company: VORWERK
+  companyUrl: kobold.vorwerk.de
+  location: Munich
+  typeOfEmployment: Self-employed salesman
+  position: Consultant and Seller
+  description:
+    description: Independent salesman of vacuum cleaners and accessories; training of new employees
+    list:
+      - Independent seller of vacuum cleaners and accessories
+      - Induction of new employees
+  startDate: 2004-04-01
+  endDate: 2008-06-31
+- company: LIDL
+  companyUrl: www.lidl.de
+  location: Munich
+  title: Employee
+  position: Deputy Branch Manager
+  description:
+    conclusion:
+    list:
+      - Branch responsibility
+      - Orders
+      - Daily billing
+      - Employee motivation and employee induction
+      - Controlling
+  startDate: 2003-03-01
+  endDate: 2004-07-31
+
+# Ausbildung
+education:
+  - school: Danube University Krems
+    schoolUrl: www.donau-uni.ac.at
+    location: Krems, Austria
+    startDate: 2016-04-11
+    endDate: 2018-05-09
+    fieldOfStudy: Professional MSc
+    majorFieldOfStudy: Technical Communication
+    degree: Master of Science (MSc)
+    grade:
+    thesis:
+      title: Methods of technical documentation applied in the administration within universities of applied sciences
+      fullTextUrl: permalink.obvsg.at/duk/YC00347036
+      grade:
+  - school: Munich University of Applied Sciences
+    schoolUrl: www.hm.edu
+    location: Munich, Deutschland
+    startDate: 2009-03-15
+    endDate: 2013-09-30
+    fieldOfStudy: Business Administration
+    majorFieldOfStudy: Project Consulting and Project Management
+    degree: Bachelor of Arts (BA)
+    grade: 2.6
+    thesis:
+      title: BLENDED LEARNING MIT DEM APPLE IPAD. Possible applications and simple implementations taking the example of presentation training
+      fullTextUrl:
+      grade: 1.7
+  - school: Munich University of Applied Sciences
+    schoolUrl: www.fh-muenchen.de
+    location: Munich, Deutschland
+    startDate: 2001-10-01
+    endDate: 2003-03-14
+    fieldOfStudy: Automotive engineering
+    majorFieldOfStudy:
+    degree: Diplom (Dipl.-Ing.)
+    thesis:
+      title:
+      fullTextUrl:
+
+# Weiterbildung
+furtherEducation:
+  - school: TÜV SÜD Akademie
+    schoolUrl: www.tuvsud.com/akademie
+    location: München
+    startDate: 2018-03-09
+    endDate: 2018-03-09
+    fieldOfStudy: Qualitätsmanagement-Beauftragter (QMB-TÜV)
+    degree:
+  - school: TÜV SÜD Akademie
+    schoolUrl: www.tuvsud.com/akademie
+    location: München
+    startDate: 2018-03-02
+    endDate: 2018-03-02
+    fieldOfStudy: Qualitätsmanagement-Fachkraft (QMF-TÜV)
+    degree:
+
+
+skills:
+  - catagorie: Industry expertise #industryKnowledge
+    items:
+    - Project management
+    - Change Management
+    - Innovation Management
+    - Direct Marketing
+    - blended learning
+    - photography
+    - sales management
+    - Web Development
+    - Motion Graphics
+  - catagorie: Tools & Technologies #toolsTechnologies
+    items:
+    - HTML
+    - XML
+    - YAML
+    - JSON
+    - CSS
+    - PHP
+    - SASS
+    - LESS
+    - DITA
+    - JavaScript
+    - FileMaker
+    - SQL
+    - Automator/Apple Script/Shortcuts
+    - Microsoft Word
+    - Microsoft Excel
+    - Microsoft Access
+    - Microsoft Outlook
+    #- MS Office (Word, Excel, Access, PowerPoint, Outlook)
+    - Apple Pages
+    - Apple Keynote
+    - Apple Numbers
+    - VBA
+    - Adobe Photoshop
+    - Adobe Dreamweaver
+    - Adobe Illustrator
+    - Adobe InDesign
+    - macOS
+    - Windows
+    - macOS Server
+    - iOS
+    - LATEX
+    - Moodle und weitere LMS
+    - FileMaker
+    - Oracle APEX
+    - Adobe Connect
+    - Apple Final Cut Pro X
+    - Apple Motion
+    - Newsletter-Tools
+  - catagorie: Languages #language
+    items:
+    - German (native language)
+    - English (business fluent)
+  - catagorie: Interests
+    items:
+    - Hiking
+    - Cycling
+    - Skiing
+
+# Referenzen
+references:
+  - name: Pia Hetzel
+    company: Munich University of Applied Sciences
+    department: Consulting and Enrollment
+    position: Head
+    email: pia.hetzel@hm.edu
+  - name: Prof. Dr. Angela Poech
+    company: Munich University of Applied Sciences
+    department: Faculty of Business Administration
+    position: Professor for Entrepreneurship
+    email: poech@hm.edu
+  - name: Aria Djamschidi
+    company: Apple
+    department:
+    position: Senior Distribution Manager
+    email: djamschidi.a@euro.apple.com
+  # - name: Anne Cathérine Spindler, M.A.
+  #   company: Munich University of Applied Sciences
+  #   department: Fakultät für Betriebswirtschaft
+  #   position: Assistentin Neue Medien
+  #   email: anne.spindler@hm.edu
+  # - name: Gisela Prey
+  #   company: Munich University of Applied Sciences
+  #   department: E-Learning Center
+  #   position: Koordinatorin
+  #   email: gisela.prey@hm.edu
