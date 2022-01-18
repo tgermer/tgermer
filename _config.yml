@@ -34,8 +34,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #url: "https://tgermer-123456.netlify.com"
 url: "https://tristan-germer.de/dev"
-url_imprint:
-url_pravacy_statement:
+url_imprint: /imprint_de
+url_privacy_statement: /privacy_statement
 webmaster_email: tgermer@hm.edu
 webmaster_name: Tristan Germer
 logo_nav: /assets/img/Studieninformationstag 2020 links.svg   #logoLinks.svg
@@ -74,6 +74,9 @@ plugins:
   - jekyll-feed
   - jekyll-typogrify
   - jekyll-gravatar
+
+favicon:
+  source: favicon_test.svg
 
 # GLYNN – FTP Uploader
 # gem install glynn --source http://gemcutter.org
