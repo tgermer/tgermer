@@ -73,6 +73,7 @@ plugins:
   #- jekyll-paginate
   - jekyll-feed
   - jekyll-typogrify
+  - jekyll-gravatar
 
 # GLYNN – FTP Uploader
 # gem install glynn --source http://gemcutter.org
