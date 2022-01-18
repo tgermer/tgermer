@@ -33,9 +33,11 @@ publisher: |
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #url: "https://tgermer-123456.netlify.com"
-url: "https://tristan-germer.de/dev"
+# url: "https://tristan-germer.de/dev"
+baseurl: "/dev" # the subpath of your site, e.g. /blog
+url: "https://tristan-germer.de" # the base hostname & protocol for your site, e.g. http://example.com
 url_imprint: /imprint_de
-url_privacy_statement: /privacy_statement
+url_privacy_statement: /privacy_statement_de
 webmaster_email: tgermer@hm.edu
 webmaster_name: Tristan Germer
 logo_nav: /assets/img/Studieninformationstag 2020 links.svg   #logoLinks.svg

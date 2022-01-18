@@ -3,7 +3,7 @@
     <small>
       <div class="row">
         <div class="col-md-3 col-sm-6">
-          <p>&copy; 2010–{{ "now" | date: "%Y" }}</p>
+          <p>&copy; 2010–{{ "now" | date: "%Y" }} by {{ site.author }}</p>
         </div>
         <div class="col-md-3 col-sm-6">
           <h4>Herausgeber</h4>
@@ -13,7 +13,7 @@
         <div class="col-md-3 col-sm-6" id="footer">
           <h4>Navigation</h4>
           {% for item in site.data.navigation %}
-          <a href="{{ site.url }}{{ item.link }}">{{ item.name }}</a>
+          <a href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>
           <br>
           {% endfor %}
         </div>
@@ -36,8 +36,8 @@
     <div class="container">
       <div class="row small text-center">
         <div class="col-md-4 text-md-left">
-          <a href="{{ site.url_imprint }}">
-            Impressum</a> | <a href="{{ site.url_privacy_statement }}">
+          <a href="{{ site.baseurl }}{{ site.url_imprint }}">
+            Impressum</a> | <a href="{{ site.baseurl }}{{ site.url_privacy_statement }}">
             Datenschutzerklärung</a>
         </div>
         <div class="col-md-4 text-center">
@@ -56,7 +56,7 @@
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <!-- <script src="{{ site.baseurl }}/assets/js/bootstrap.bundle.min.js"></script> -->
-<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/bootstrap.bundle.min.js"></script>
 
 {% comment %} ---
 {% include piwik.html %}

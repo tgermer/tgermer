@@ -9,9 +9,9 @@ layout: default
   </header>
   <p class="float-end small d-print-none">
     {% if page.lang == 'en' %}
-    <a href="/cv_de/" >View {{ page.title | titlecase }} in German</a>
+    <a href="{{ site.baseurl }}/cv_de/" >View {{ page.title | titlecase }} in German</a>
     {% elsif page.lang == 'de' %}
-    <a href="/cv_en/">{{ page.title }} auf Englisch ansehen</a>
+    <a href="{{ site.baseurl }}/cv_en/">{{ page.title }} auf Englisch ansehen</a>
     {% endif %}
   </p>
 
