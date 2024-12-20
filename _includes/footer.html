@@ -6,11 +6,6 @@
           <p>&copy; 2010–{{ "now" | date: "%Y" }} by {{ site.author }}</p>
         </div>
         <div class="col-md-3 col-sm-6">
-          <h4>Herausgeber</h4>
-          <address>{{ site.publisher }}
-          </address>
-        </div>
-        <div class="col-md-3 col-sm-6" id="footer">
           <h4>Navigation</h4>
           {% for item in site.data.navigation %}
           <a href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>

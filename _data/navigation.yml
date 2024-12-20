@@ -4,5 +4,9 @@
   link: /blog
 - name: CV
   link: /cv_en
+- name: Tools
+  link: /tools
+- name: Referrals
+  link: /referrals
 - name: About
   link: /about
