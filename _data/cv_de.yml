@@ -1,5 +1,21 @@
 # Berufserfahrungen
 experience:
+- company: Bayerische Verwaltungsschule (BVS)
+  companyUrl: www.bvs.de
+  location: München
+  typeOfEmployment: Angestellter
+  position:
+    - Referent Qualitätsmanagement, Controlling und zentrale Steuerungsunterstützung  
+  description:
+    conclusion:
+    list:
+      - Entwicklung eines Qualitätsmanagementsystems zur Optimie-rung interner Prozesse und Einhaltung von Qualitätsstandards.
+      - Weiterentwicklung des zentralen Controllings durch steuerungs-relevante Kennzahlen zur strategischen Entscheidungsfindung.
+      - Überarbeitung des Evaluationssystems zur verbesserten Leis-tungsmessung und Analyse, inklusive Integration von Automa-tisierungen und Effizienzsteigerung des Feedbackprozesses.
+      - Mitwirkung an der Digitalisierung interner und öffentlichkeits-wirksamer Prozesse gemäß BayDiG, die die Transformation in-nerhalb der Organisation vorantreibt.
+      - Entwicklung, didaktische Aufbereitung und Durchführung von Schulungsprogrammen in Software-Anwendungen (z. B. Con-fluence, MS Office, evasys).
+  startDate: 2022-10-01
+  endDate: 2024-12-31
 - company: Hochschule München
   companyUrl: www.hm.edu
   location: München
@@ -21,7 +37,7 @@ experience:
       - Entwicklung eines Management-Dashboards der wichtigsten Zahlen der Hochschule München für verschiedenen Zielgruppen
       - Einführung und Etablierung einer elektronischen Akte im Bereich Studium (Bewerbung und Studierende), Projektleiter
   startDate: 2013-09-15
-  endDate:
+  endDate: 2022-09-30
 - company: Hochschule München, Steuerlehrgänge Dr. Bannas GmbH
   companyUrl: www.hm.edu
   location: München
