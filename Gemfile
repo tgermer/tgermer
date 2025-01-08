@@ -8,3 +8,5 @@ gem 'jekyll-typogrify'
 gem 'jekyll-gravatar'
 # gem 'jekyll-favicon', '~> 1.0.0', group: :jekyll_plugins
 # gem 'jekyll-ftp'
+gem 'csv'
+gem 'base64'
