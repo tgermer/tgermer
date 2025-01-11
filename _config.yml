@@ -69,7 +69,8 @@ show_excerpts: true # set to true to show excerpts on the news(post) site
 # Build settings
 permalink: :title/
 sass:
-  sass_dir: css
+    load_paths: 
+        - _sass
 plugins:
   - jekyll-seo-tag
   #- jekyll-paginate
