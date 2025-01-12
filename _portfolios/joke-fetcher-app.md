@@ -5,7 +5,7 @@ description: Jokes at your fingertips.
 featured: true
 technologies: Swift, SwiftUI
 date: 2024-12-01
-image: /assets/img/joke-fetcher-app-cover.png
+image: /assets/img/joke-fetcher-app-icon.svg
 link: https://github.com/tgermer/RandomJokesApp
 type: iOS App
 ---
