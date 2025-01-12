@@ -3,7 +3,8 @@ layout: container
 title: Blog
 ---
 
-{%- if site.posts.size > 0 -%}
+<div class="container">
+  {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list" style="list-style: none; padding-left: 0px">
       {%- for post in site.posts -%}
@@ -52,3 +53,4 @@ title: Blog
   {%- endif -%}
 
 --- {% endcomment %}
+</div>

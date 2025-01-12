@@ -3,12 +3,14 @@ layout: container
 title: About Tristan Germer
 ---
 
-<div class="row">
-  <div class="col-md-6 bg-light order-md-last p-4 mb-3">
-    <img class="img-fluid mx-auto d-block" src="{{ site.email | to_gravatar }}?s=500" style="max-width: 200px"/>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 bg-light order-md-last p-4 mb-3">
+      <img class="img-fluid mx-auto d-block" src="{{ site.email | to_gravatar }}?s=500" style="max-width: 200px"/>
+    </div>
+    <div class="col-md-6 order-md-first">
+      <p>{{ site.about }}</p>
+    </div>
+  
   </div>
-  <div class="col-md-6 order-md-first">
-    <p>{{ site.about }}</p>
-  </div>
-
 </div>

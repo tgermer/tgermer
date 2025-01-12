@@ -96,7 +96,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/img/FB_01_1200x630.png # Allgemeines OpenGraph Bild
+      ogImage: /assets/img/FB_01_1200x630.png # Allgemeines OpenGraph Bild
   # jekyll-seo-tag ENDE
 
 # Eigene Einstellungen
@@ -118,3 +118,9 @@ defaults:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+collections:
+  portfolios:
+    output: true
+    permalink: /portfolio/:name/
