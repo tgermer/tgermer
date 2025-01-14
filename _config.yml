@@ -31,11 +31,11 @@ publisher: |
   Petrarcastraße 32<br>
   80933 München
 baseurl: "" # the subpath of your site, e.g. /blog
+# url: "https://tristan-germer.de" # the base hostname & protocol for your site, e.g. http://example.com
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#url: "https://tgermer-123456.netlify.com"
+url: "https://tgermer.netlify.com"
 # url: "https://tristan-germer.de/dev"
 baseurl: # "/dev" # the subpath of your site, e.g. /blog
-url: "https://tristan-germer.de" # the base hostname & protocol for your site, e.g. http://example.com
 url_imprint: /imprint_de
 url_privacy_statement: /privacy_statement_de
 webmaster_email: tgermer@hm.edu
