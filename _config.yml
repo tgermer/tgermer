@@ -33,7 +33,7 @@ publisher: |
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://tristan-germer.de" # the base hostname & protocol for your site, e.g. http://example.com
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
-url: "https://tgermer.netlify.com"
+url: "https://tgermer.netlify.app"
 # url: "https://tristan-germer.de/dev"
 baseurl: # "/dev" # the subpath of your site, e.g. /blog
 url_imprint: /imprint_de
