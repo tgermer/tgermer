@@ -12,19 +12,33 @@ image-me: /assets/img/me-removebg.png
 
 <body>
 
-    <div class="cover-container d-flex w-100 vh-100 mx-auto flex-column">
-        <!-- Unscharfer Hintergrund -->
-        <div class="background-blur overflow-hidden" style="background-image: url('{{ page.image-background }}'); 
+    <style>
+        .gradient {
+            background-image: linear-gradient(135deg,
+                hsl(219deg 86% 41%) 0%,
+                hsl(209deg 100% 44%) 20%,
+                hsl(207deg 91% 55%) 40%,
+                hsl(207deg 100% 68%) 60%,
+                hsl(207deg 100% 79%) 80%,
+                hsl(206deg 100% 89%) 100%);
            background-size: cover; 
            background-position: center; 
-           filter: blur(20px); 
+           /* filter: blur(20px);  */
            position: absolute; 
            top: 0; 
            left: 0; 
            width: 100%; 
            height: 100%; 
-           z-index: -1;">
-        </div>
+           z-index: -1;
+        }
+        .cover-text-shadow {
+            text-shadow: #000 0px 0 5px;
+        }
+    </style>
+
+    <div class="cover-container d-flex w-100 vh-100 mx-auto flex-column">
+        <!-- Unscharfer Hintergrund -->
+        <div class="gradient"></div>
         <div class="bg-body" style="
            position: absolute; 
            top: 0; 
@@ -52,10 +66,10 @@ image-me: /assets/img/me-removebg.png
                     </div>
                     <!-- Text -->
                         <div class="col-lg-8 text-center text-lg-start mb-5">
-                            <h1 class="display-2" style="text-shadow: #000 0px 0 5px;">Tristan Germer</h1>
-                            <p class="lead-lg" style="text-shadow: #000 0px 0 5px;">Technik-Enthusiast, Innovationsgeist und designaffin. Ich vereine Kreativität, modernes Design und Technologie, um einzigartige Lösungen zu schaffen.</p>
+                            <h1 class="display-2">Tristan Germer</h1>
+                            <p class="lead">Technik-Enthusiast, Innovationsgeist und designaffin. Ich vereine Kreativität, modernes Design und Technologie, um einzigartige Lösungen zu schaffen.</p>
                             <a href="/portfolio" class="btn btn-primary me-2 mt-2">Meine Projekte ansehen</a>
-                            <a href="/about" class="btn btn-outline-light mt-2">Mehr über mich</a>
+                            <a href="/about" class="btn btn-light mt-2">Mehr über mich</a>
                         </div>
                     
                 </div>
