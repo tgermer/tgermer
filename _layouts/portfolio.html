@@ -4,7 +4,7 @@ layout: container
 
 <div class="container mb-5">
     <p class="lead">{{ page.description }}</p>
-    {% if page.image != nil %}
+    <!-- {% if page.image != nil %}
     <div class="ratio ratio-21x9 rounded-4 mb-5 bg-secondary bg-gradient bg-image">
         <div class="rounded-4 shadow border" style="background-image: url('{{ page.image }}'); 
                        background-size: cover; 
@@ -13,7 +13,105 @@ layout: container
                        height: 100%;">
         </div>
     </div>
-    {% endif %}
+    {% endif %} -->
+
+</div>
+
+
+
+{% if page.screenshots-available %}
+<div class="container-fluid my-4 bg-primary-subtle bg-gradient pt-5 pb-2">
+    <p class="h2 container mb-4">Screenshots</p>
+    <div class="d-flex align-items-end overflow-auto gap-4">
+        {% assign screenshots_path = page.screenshots-path %}
+        {% assign screenshots = site.static_files | sort: "path" %}
+        {% assign screenshots = screenshots | where_exp: "item", "item.path contains screenshots_path" %}
+        {% for screenshot in screenshots %}
+        <!-- Miniaturbild -->
+        <img src="{{ screenshot.path }}"
+            alt="{{ screenshot.path | split: '/' | last | split: '.' | first | replace: '_', ' ' }}"
+            class="img-fluid rounded-2 border" style="max-height: 50vh; cursor: pointer;" data-bs-toggle="modal"
+            data-bs-target="#screenshotModal" onclick="showModal({{ forloop.index0 }})">
+        {% endfor %}
+    </div>
+    <div class="text-center mt-3 opacity-50">
+        <i class="fa-sharp-duotone fa-solid fa-arrows-left-right"></i>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="screenshotModal" tabindex="-1" aria-labelledby="screenshotModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="screenshotModalLabel">Screenshot</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex justify-content-center align-items-center position-relative">
+                <!-- Navigations-Buttons -->
+                <button class="btn btn-light position-absolute top-50 start-0 translate-middle-y m-2 opacity-75"
+                    style="z-index: 10;" onclick="prevImage()">←</button>
+                <img src="" id="modalImage" class="img-fluid rounded shadow"
+                    style="max-height: 75vh; object-fit: contain;">
+                <button class="btn btn-light position-absolute top-50 end-0 translate-middle-y m-2 opacity-75"
+                    style="z-index: 10;" onclick="nextImage()">→</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Screenshots-Array aus Liquid generieren
+    const screenshots = [
+        {% for screenshot in screenshots %}
+    "{{ screenshot.path }}",
+        {% endfor %}
+        ];
+
+    let currentIndex = 0;
+
+    // Funktion, um das Modal zu öffnen und das Bild anzuzeigen
+    function showModal(index) {
+        currentIndex = index;
+        const modalImage = document.getElementById('modalImage');
+        const modalTitle = document.getElementById('screenshotModalLabel');
+        const selectedImage = document.querySelectorAll('.d-flex img')[index];
+
+        modalImage.src = screenshots[currentIndex];
+        modalImage.alt = selectedImage.alt; // Dynamisches Label aus dem alt-Attribut
+        modalTitle.textContent = selectedImage.alt;
+    }
+
+    // Funktion für das vorherige Bild
+    function prevImage() {
+        currentIndex = (currentIndex - 1 + screenshots.length) % screenshots.length;
+        showModal(currentIndex);
+    }
+
+    // Funktion für das nächste Bild
+    function nextImage() {
+        currentIndex = (currentIndex + 1) % screenshots.length;
+        showModal(currentIndex);
+    }
+
+    // Tastaturnavigation
+    document.addEventListener('keydown', function (event) {
+        const modal = document.getElementById('screenshotModal');
+        if (modal.classList.contains('show')) { // Nur reagieren, wenn das Modal offen ist
+            if (event.key === 'ArrowRight') {
+                nextImage();
+            } else if (event.key === 'ArrowLeft') {
+                prevImage();
+            } else if (event.key === 'Escape') {
+                const closeButton = modal.querySelector('.btn-close');
+                closeButton.click();
+            }
+        }
+    });
+</script>
+{% endif %}
+
+<div class="container mb-5">
     <a href="{{ page.link }}" target="_blank" class="btn btn-primary">Code auf GitHub ansehen</a>
 </div>
 
@@ -29,94 +127,3 @@ layout: container
 <div class="container">
     <a href="/portfolio" class="btn btn-outline-secondary">Zurück zu allen Projekten</a>
 </div>
-
-
-{% if page.screenshots-available %}
-<div class="container-fluid my-4 bg-primary-subtle bg-gradient py-5">
-    <h2 class="container mb-4">Screenshots</h2>
-    <div class="d-flex align-items-end overflow-auto gap-4">
-      {% assign screenshots_path = page.screenshots-path %}
-      {% assign screenshots = site.static_files | sort: "path" %}
-      {% assign screenshots = screenshots | where_exp: "item", "item.path contains screenshots_path" %}
-      {% for screenshot in screenshots %}
-        <!-- Miniaturbild -->
-        <img src="{{ screenshot.path }}" 
-             alt="{{ screenshot.path | split: '/' | last | split: '.' | first | replace: '_', ' ' }}"  
-             class="img-fluid rounded-2 border" 
-             style="max-height: 50vh; cursor: pointer;" 
-             data-bs-toggle="modal" 
-             data-bs-target="#screenshotModal" 
-             onclick="showModal({{ forloop.index0 }})">
-      {% endfor %}
-    </div>
-  </div>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="screenshotModal" tabindex="-1" aria-labelledby="screenshotModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-fullscreen">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="screenshotModalLabel">Screenshot</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body d-flex justify-content-center align-items-center position-relative">
-          <!-- Navigations-Buttons -->
-          <button class="btn btn-primary position-absolute top-50 start-0 translate-middle-y m-2" style="z-index: 10;" onclick="prevImage()">←</button>
-          <img src="" id="modalImage" class="img-fluid rounded shadow" style="max-height: 75vh; object-fit: contain;">
-          <button class="btn btn-primary position-absolute top-50 end-0 translate-middle-y m-2" style="z-index: 10;" onclick="nextImage()">→</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <script>
-    // Screenshots-Array aus Liquid generieren
-    const screenshots = [
-      {% for screenshot in screenshots %}
-        "{{ screenshot.path }}",
-      {% endfor %}
-    ];
-  
-    let currentIndex = 0;
-  
-    // Funktion, um das Modal zu öffnen und das Bild anzuzeigen
-    function showModal(index) {
-  currentIndex = index;
-  const modalImage = document.getElementById('modalImage');
-  const modalTitle = document.getElementById('screenshotModalLabel');
-  const selectedImage = document.querySelectorAll('.d-flex img')[index];
-  
-  modalImage.src = screenshots[currentIndex];
-  modalImage.alt = selectedImage.alt; // Dynamisches Label aus dem alt-Attribut
-  modalTitle.textContent = selectedImage.alt;
-}
-  
-    // Funktion für das vorherige Bild
-    function prevImage() {
-      currentIndex = (currentIndex - 1 + screenshots.length) % screenshots.length;
-      showModal(currentIndex);
-    }
-  
-    // Funktion für das nächste Bild
-    function nextImage() {
-      currentIndex = (currentIndex + 1) % screenshots.length;
-      showModal(currentIndex);
-    }
-  
-    // Tastaturnavigation
-    document.addEventListener('keydown', function(event) {
-      const modal = document.getElementById('screenshotModal');
-      if (modal.classList.contains('show')) { // Nur reagieren, wenn das Modal offen ist
-        if (event.key === 'ArrowRight') {
-          nextImage();
-        } else if (event.key === 'ArrowLeft') {
-          prevImage();
-        } else if (event.key === 'Escape') {
-          const closeButton = modal.querySelector('.btn-close');
-          closeButton.click();
-        }
-      }
-    });
-  </script>
-  {% endif %}
-  
