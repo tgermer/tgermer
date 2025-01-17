@@ -2,35 +2,46 @@
 <div class="row mt-3">
   <div class="col-md-4 col-lg-3 col-xl-2">
     <p class="mb-0 mt-1">
-      {% if education.endDate == education.startDate %}
-          {{ education.startDate | date: "%m/%Y" }}
-        {% elsif education.endDate == nil %}
-          seit {{ education.startDate | date: "%m/%Y" }}
-        {% else %}
-          {{ education.startDate | date: "%m/%Y" }}–{{ education.endDate | date: "%m/%Y" }}
-      {%endif%}
+      {% case education.endDate %}
+      {% when education.startDate %}
+      {{ education.startDate | date: "%m/%Y" }}
+      {% when nil %}
+      seit {{ education.startDate | date: "%m/%Y" }}
+      {% else %}
+      {{ education.startDate | date: "%m/%Y" }}–{{ education.endDate | date: "%m/%Y" }}
+      {% endcase %}
     </p>
   </div>
   <div class="col-md-8 col-lg-9 col-xl-10">
     <h4>
-      {% if education.degree != nil %}{{ education.degree }}, {% endif %}{{ education.fieldOfStudy }}
-      {% if education.majorFieldOfStudy != nil %}
-      – {{ education.majorFieldOfStudy }}{% endif %}
+      {{ education.degree | append: ', ' if education.degree != nil }}{{ education.fieldOfStudy }}
+      {% if education.majorFieldOfStudy %}
+      – {{ education.majorFieldOfStudy }}
+      {% endif %}
     </h4>
     <p>
+      {% if education.schoolUrl %}
+      <a href="http://{{ education.schoolUrl }}" target="_blank">{{ education.school | upcase }}</a>
+      {% else %}
       {{ education.school | upcase }}
-      {% if education.schoolUrl != nil %}
-      <br>
-      <a href="http://{{ education.schoolUrl }}" target="_blank">{{ education.schoolUrl }}</a>{% endif %}
+      {% endif %}
     </p>
+    {% if education.certificateUrl %}
     <p>
-      {% if education.thesis.title != nil %}
+      <a href="{{ education.certificateUrl }}" target="_blank" class="btn btn-outline-secondary btn-sm">Nachweis
+        anzeigen</a>
+    </p>
+    {% endif %}
+    {% if education.thesis.title %}
+    <p>
       Thesis: {{ education.thesis.title }}
-      {% if education.thesis.fullTextUrl != nil %}
-      <br><small>Volltext: <a href="http://{{ education.thesis.fullTextUrl }}" target="_blank">{{ education.thesis.fullTextUrl }}</a></small>
-      {% endif %}
+      {% if education.thesis.fullTextUrl %}
+      <br>
+      <small>Volltext: <a href="http://{{ education.thesis.fullTextUrl }}" target="_blank">{{
+          education.thesis.fullTextUrl }}</a></small>
       {% endif %}
     </p>
+    {% endif %}
     <hr>
   </div>
 </div>
