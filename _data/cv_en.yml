@@ -1,5 +1,21 @@
 # Berufserfahrungen
 experience:
+- company: Bayerische Verwaltungsschule (BVS)
+  companyUrl: www.bvs.de
+  location: Munich
+  typeOfEmployment: Employee
+  position:
+    - Consultant for Quality Management, Controlling, and Central Steering Support
+  description:
+    conclusion:
+    list:
+      - Development of a quality management system to optimize internal processes and ensure compliance with quality standards.
+      - Advancement of central controlling through key performance indicators relevant to strategic decision-making.
+      - Revision of the evaluation system for improved performance measurement and analysis, including the integration of automation and increased efficiency of the feedback process.
+      - Contribution to the digitization of internal and public-facing processes in accordance with BayDiG, driving transformation within the organization.
+      - Development, didactic preparation, and delivery of training programs in software applications (e.g., Confluence, MS Office, evasys).
+  startDate: 2022-10-01
+  endDate: 2024-12-31
 - company: Munich University of Applied Sciences
   companyUrl: www.hm.edu
   location: Munich
@@ -19,17 +35,17 @@ experience:
       - Production of teaser, explanatory and mood films
       - Management of rental equipment pool (tablets, notebooks, cameras)
   startDate: 2013-09-15
-  endDate:
+  endDate: 2022-09-30
 - company: Munich University of Applied Sciences, Steuerlehrgänge Dr. Bannas GmbH
   companyUrl: www.hm.edu
   location: Munich
   typeOfEmployment: Freelancer
   position:
   description:
-    conclusion: Production of video statements for the "Master of Taxation" of the Munich University of Applied Sciences in cooperation with Steuerlehrgänge Dr. Bannas GmbH
+    # conclusion: Production of video statements for the "Master of Taxation" of the Munich University of Applied Sciences in cooperation with Steuerlehrgänge Dr. Bannas GmbH
     list:
-      - Support of the Continuing Education Center of the Munich Universi-ty of Applied Sciences during the lecture transmission (May–July 2013)
-      - Production of video statements for the "Master of Taxation" of the Munich University of Applied Sciences in cooperation with Steuerlehrgänge Dr. Bannas GmbH (February–June 2013)
+      # - Support of the Continuing Education Center of the Munich Universi-ty of Applied Sciences during the lecture transmission (May–July 2013)
+      # - Production of video statements for the "Master of Taxation" of the Munich University of Applied Sciences in cooperation with Steuerlehrgänge Dr. Bannas GmbH (February–June 2013)
   startDate: 2013-05-01
   endDate: 2013-06-31
 - company: Munich University of Applied Sciences, Experconsults
@@ -40,13 +56,13 @@ experience:
   description:
     conclusion:
     list:
-      - Certificate ETHIKUM under the direction of Prof. Dr. Angela Poech (October 2012–January 2013)
-      - Personal Assistant to Prof. Dr. Angela Poech (October 2012–January 2013)
-      - Multimedia FK 10 BWL under the direction of Cornelia Mahr (October 2012–January 2013)
-      - Live broadcast Master Economic Development with ExperConsult (October 2012–January 2013)
-      - E-Learning (August 2011–Juli 2012)
-      - Moodle and other LMS, e-learning tools, ticket system, training, ScreenCasts, personal advice, technology, newsletter, video platform
-      - Personal Assistant to Prof. Dr. Angela Poech (August 2009–July 2010)
+      # - Certificate ETHIKUM under the direction of Prof. Dr. Angela Poech (October 2012–January 2013)
+      # - Personal Assistant to Prof. Dr. Angela Poech (October 2012–January 2013)
+      # - Multimedia FK 10 BWL under the direction of Cornelia Mahr (October 2012–January 2013)
+      # - Live broadcast Master Economic Development with ExperConsult (October 2012–January 2013)
+      # - E-Learning (August 2011–Juli 2012)
+      # - Moodle and other LMS, e-learning tools, ticket system, training, ScreenCasts, personal advice, technology, newsletter, video platform
+      # - Personal Assistant to Prof. Dr. Angela Poech (August 2009–July 2010)
   startDate: 2009-08-01
   endDate: 2013-01-31
 - company: WEKU München
@@ -57,11 +73,11 @@ experience:
   description:
     conclusion:
     list:
-      - Marketing and sale of windows
-      - Order entry in self-written FileMaker database
-      - Recruitment and training
-      - Office Manager
-      - Development of direct sales with Dirk Bienert
+      # - Marketing and sale of windows
+      # - Order entry in self-written FileMaker database
+      # - Recruitment and training
+      # - Office Manager
+      # - Development of direct sales with Dirk Bienert
   startDate: 2008-03-01
   endDate: 2008-12-31
 - company: VORWERK
@@ -72,8 +88,8 @@ experience:
   description:
     description: Independent salesman of vacuum cleaners and accessories; training of new employees
     list:
-      - Independent seller of vacuum cleaners and accessories
-      - Induction of new employees
+      # - Independent seller of vacuum cleaners and accessories
+      # - Induction of new employees
   startDate: 2004-04-01
   endDate: 2008-06-31
 - company: LIDL
@@ -84,16 +100,29 @@ experience:
   description:
     conclusion:
     list:
-      - Branch responsibility
-      - Orders
-      - Daily billing
-      - Employee motivation and employee induction
-      - Controlling
+      # - Branch responsibility
+      # - Orders
+      # - Daily billing
+      # - Employee motivation and employee induction
+      # - Controlling
   startDate: 2003-03-01
   endDate: 2004-07-31
 
 # Ausbildung
 education:
+  - school: UDACITY
+    schoolUrl: www.udacity.com
+    location: Online
+    startDate: 2024-10-01
+    endDate: 2024-12-04
+    fieldOfStudy: iOS Development with SwiftUl and SwiftData
+    degree: Nanodegree
+    grade:
+    certificateUrl: https://www.udacity.com/certificate/e/50931af6-7ccf-11ef-9b58-8fbb3f4ca5b3
+    thesis:
+      title: 
+      fullTextUrl: 
+      grade:
   - school: Danube University Krems
     schoolUrl: www.donau-uni.ac.at
     location: Krems, Austria

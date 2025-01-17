@@ -44,10 +44,10 @@ experience:
   typeOfEmployment: Feier Mitarbeiter
   position:
   description:
-    conclusion: Produktion von Videostatements für den "Master of Taxation" der Hochschule München in Kooperation mit Steuerlehrgänge Dr. Bannas GmbH
+    # conclusion: Produktion von Videostatements für den "Master of Taxation" der Hochschule München in Kooperation mit Steuerlehrgänge Dr. Bannas GmbH
     list:
-      - Unterstützung des Weiterbildungszentrums der Hochschule München bei der Vorlesungsübertragung (Mai–Juli 2013)
-      - Produktion von Videostatements für den „Master of Taxation“ der Hochschule München in Kooperation mit Steuerlehrgänge Dr. Bannas GmbH (Februar–Juni 2013)
+      # - Unterstützung des Weiterbildungszentrums der Hochschule München bei der Vorlesungsübertragung (Mai–Juli 2013)
+      # - Produktion von Videostatements für den „Master of Taxation“ der Hochschule München in Kooperation mit Steuerlehrgänge Dr. Bannas GmbH (Februar–Juni 2013)
   startDate: 2013-05-01
   endDate: 2013-06-31
 - company: Hochschule München, Experconsults
@@ -58,13 +58,13 @@ experience:
   description:
     conclusion:
     list:
-      - Zertifikat ETHIKUM unter Leitung von Prof. Dr. Angela Poech (Oktober 2012–Januar 2013)
-      - Persönlicher Assistent für Prof. Dr. Angela Poech (Oktober 2012–Januar 2013)
-      - Multimedia in der Fakultät 10 für Betriebswirtschaft unter Leitung von Cornelia Mahr (Oktober 2012–Januar 2013)
-      - Live-Übertragung Master Wirtschaftsförderung mit ExperConsult (Oktober 2012–Januar 2013)
-      - E-Learning (August 2011–Juli 2012)
-      - Moodle und weitere LMS, E-Learning Tools, Ticket-System, Schulungen, ScreenCasts, persönliche Beratung, Technik, Newsletter, Video-plattform
-      - Persönlicher Assistent von Prof. Dr. Angela Poech (August 2009–Juli 2010)
+      # - Zertifikat ETHIKUM unter Leitung von Prof. Dr. Angela Poech (Oktober 2012–Januar 2013)
+      # - Persönlicher Assistent für Prof. Dr. Angela Poech (Oktober 2012–Januar 2013)
+      # - Multimedia in der Fakultät 10 für Betriebswirtschaft unter Leitung von Cornelia Mahr (Oktober 2012–Januar 2013)
+      # - Live-Übertragung Master Wirtschaftsförderung mit ExperConsult (Oktober 2012–Januar 2013)
+      # - E-Learning (August 2011–Juli 2012)
+      # - Moodle und weitere LMS, E-Learning Tools, Ticket-System, Schulungen, ScreenCasts, persönliche Beratung, Technik, Newsletter, Video-plattform
+      # - Persönlicher Assistent von Prof. Dr. Angela Poech (August 2009–Juli 2010)
   startDate: 2009-08-01
   endDate: 2013-01-31
 - company: WEKU München
@@ -75,10 +75,10 @@ experience:
   description:
     conclusion:
     list:
-      - Vermarktung und Verkauf von Fenstern
-      - Auftragserfassung in selbst geschriebener FileMaker DB
-      - Personalbeschaffung und -ausbildung, Büroleiter
-      - Aufbau des Direktvertiebes mit Firmeninhaber
+      # - Vermarktung und Verkauf von Fenstern
+      # - Auftragserfassung in selbst geschriebener FileMaker DB
+      # - Personalbeschaffung und -ausbildung, Büroleiter
+      # - Aufbau des Direktvertiebes mit Firmeninhaber
   startDate: 2008-03-01
   endDate: 2008-12-31
 - company: VORWERK
@@ -99,16 +99,29 @@ experience:
   description:
     conclusion:
     list:
-      - Filialverantwortung
-      - Bestellungen
-      - Tagesabrechnungen
-      - Mitarbeitermotivation und &#8209;einarbeitung
-      - Controlling
+      # - Filialverantwortung
+      # - Bestellungen
+      # - Tagesabrechnungen
+      # - Mitarbeitermotivation und &#8209;einarbeitung
+      # - Controlling
   startDate: 2003-03-01
   endDate: 2004-07-31
 
 # Ausbildung
 education:
+  - school: UDACITY
+    schoolUrl: www.udacity.com
+    location: Online
+    startDate: 2024-10-01
+    endDate: 2024-12-04
+    fieldOfStudy: iOS Development with SwiftUl and SwiftData
+    degree: Nanodegree
+    grade:
+    certificateUrl: https://www.udacity.com/certificate/e/50931af6-7ccf-11ef-9b58-8fbb3f4ca5b3
+    thesis:
+      title: 
+      fullTextUrl: 
+      grade:
   - school: Donau-Universität Krems
     schoolUrl: www.donau-uni.ac.at
     location: Krems, Österreich
@@ -148,6 +161,22 @@ education:
 
 # Weiterbildung
 furtherEducation:
+  - school: Scrum.org
+    schoolUrl: www.scrum.org
+    location: Online
+    startDate: 2024-08-03
+    endDate: 2024-08-03
+    fieldOfStudy: Professioneller Scrum Product Owern (PSPO I)
+    degree: 
+    certificateUrl: https://www.scrum.org/certificates/1127252
+  - school: Scrum.org
+    schoolUrl: www.scrum.org
+    location: Online
+    startDate: 2024-07-07
+    endDate: 2024-07-07
+    fieldOfStudy: Professioneller Scrum Master (PSM I)
+    degree:
+    certificateUrl: https://www.scrum.org/certificates/1118704
   - school: TÜV SÜD Akademie
     schoolUrl: www.tuvsud.com/akademie
     location: München
