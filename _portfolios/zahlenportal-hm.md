@@ -6,7 +6,7 @@ featured: false
 technologies: Angular, JavaScript, Bootstrap, SQL, REST, D3.js
 date: 2018-03-15
 image: /assets/img/zahlenportal-hm/01_Startseite_Desktop.png
-link:
+link-website:
 type: Website
 screenshots-available: true
 screenshots-path: /assets/img/zahlenportal-hm/

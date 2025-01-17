@@ -6,6 +6,6 @@ featured: false
 technologies: HTML, CSS, Bootstrap, Jekyll
 date: 2024-12-01
 image: /assets/img/teamclusion-logo-white.svg
-link: https://www.teamclusion.de
+link-website: https://www.teamclusion.de
 type: Website
 ---

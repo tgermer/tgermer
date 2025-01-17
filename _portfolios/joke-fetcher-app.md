@@ -6,7 +6,7 @@ featured: true
 technologies: Swift, SwiftUI
 date: 2024-12-01
 image: /assets/img/joke-fetcher-app-icon.svg
-link: https://github.com/tgermer/RandomJokesApp
+link-github: https://github.com/tgermer/RandomJokesApp
 type: iOS App
 screenshots-available: true
 screenshots-path: /assets/img/joke-fetcher-app/
