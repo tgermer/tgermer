@@ -194,66 +194,36 @@ furtherEducation:
 
 
 skills:
-  - catagorie: Branchenwissen #industryKnowledge
+  - catagorie: Office
     items:
-    - Projektmanagement
-    - Änderungsmanagement
-    - Innovationsmanagement
-    - Direkt Marketing
-    - Blended Learning
-    - Fotografie
-    - Sales
-    - Web-Entwicklung
-    - Motion Graphics
-  - catagorie: Tools & Technologien #toolsTechnologies
+    - Word
+    - Excel
+    - PowerPoint
+    - Visio
+    - Confluence
+    - Jira
+  - catagorie: Design
+    items:
+    - Adobe Creative Suite (Photoshop, Illustrator, InDesign)
+    - Affinity Suite (Photo, Designer, Publisher)
+    - Apple Final Cut Pro
+    - Apple Motion
+  - catagorie: Programmierung
     items:
     - HTML
-    - XML
-    - YAML
-    - JSON
     - CSS
-    - PHP
-    - SASS
-    - LESS
-    - DITA
     - JavaScript
-    - FileMaker
-    - SQL
-    - Automator/Apple Script/Shortcuts
-    - Microsoft Word
-    - Microsoft Excel
-    - Microsoft Access
-    - Microsoft Outlook
-    #- MS Office (Word, Excel, Access, PowerPoint, Outlook)
-    - Apple Pages
-    - Apple Keynote
-    - Apple Numbers
-    - VBA
-    - Adobe Photoshop
-    - Adobe Dreamweaver
-    - Adobe Illustrator
-    - Adobe InDesign
-    - macOS
-    - Windows
-    - macOS Server
-    - iOS
-    - LATEX
-    - Moodle und weitere LMS
-    - FileMaker
-    - Oracle APEX
-    - Adobe Connect
-    - Apple Final Cut Pro X
-    - Apple Motion
-    - Newsletter-Tools
-  - catagorie: Sprachen #language
+    - Swift
+  - catagorie: Sprachen
     items:
     - Deutsch (Mutterspache)
-    - Englisch (Verhandlungssicher)
+    - Englisch (fließend)
   - catagorie: Interessen
     items:
-    - Wandern
-    - Radfahren
-    - Skifahren
+    - CODING Analytisch & Detailorientiert
+    - TECHNOLOGIE Innovativ & Lernbereit
+    - FITNESS Teamfähigkeit & Ehrgeiz
+    - REISEN Flexibilität & Neugier
 
 # Referenzen
 references:
