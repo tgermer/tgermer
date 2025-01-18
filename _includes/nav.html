@@ -1,23 +1,25 @@
 <nav class="navbar navbar-expand-lg">
-		<div class="container border-bottom pb-2">
-			<a class="navbar-brand" href="{{ site.baseurl }}{{ site.url }}/">
-				Tristan Germer
-				<!-- <img alt="{{ site.title }}" src="{{ site.url }}{{ site.logo_nav }}" height="25px"> -->
-			</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	      <span class="navbar-toggler-icon"></span>
-	    </button>
-	    <div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav ml-auto">
+	<div class="container border-bottom pb-2">
+		<a class="navbar-brand" href="{{ site.baseurl }}{{ site.url }}/">
+			Tristan Germer
+			<!-- <img alt="{{ site.title }}" src="{{ site.url }}{{ site.logo_nav }}" height="25px"> -->
+		</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto">
 
-					{% for item in site.data.navigation %}
-					<li class="nav-item"><a class="nav-link {% if page.url contains item.link %}active" aria-current="page" {% else %}" {% endif %} href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>
-					</li>
-					{% endfor %}
+				{% for item in site.data.navigation %}
+				<li class="nav-item"><a class="nav-link {% if page.url contains item.link %}active" aria-current="page"
+						{% else %}" {% endif %} href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>
+				</li>
+				{% endfor %}
 
-					<!-- <li class="nav-item {% if page.url contains "/cv" %}active{% endif %}"><a class="nav-link" href="{{ site.url }}/cv">Lebenslauf</a>
+				<!-- <li class="nav-item {% if page.url contains "/cv" %}active{% endif %}"><a class="nav-link" href="{{ site.url }}/cv">Lebenslauf</a>
 					</li> -->
-					<!-- <li class="nav-item {% if page.url contains "/blog" %}active{% endif %}"><a class="nav-link" href="{{ site.url }}/blog">Blog</a>
+				<!-- <li class="nav-item {% if page.url contains "/blog" %}active{% endif %}"><a class="nav-link" href="{{ site.url }}/blog">Blog</a>
 					</li>
 					<li class="nav-item {% if page.url contains "/experience" %}active{% endif %}"><a class="nav-link" href="{{ site.url }}/experience">Berufserfahrungen</a>
 					</li>
@@ -29,7 +31,7 @@
 					</li>
 					<li class="nav-item {% if page.url contains "/references" %}active{% endif %}"><a class="nav-link" href="{{ site.url }}/references">Referenzen</a>
 					</li> -->
-				</ul>
-			</div>
+			</ul>
 		</div>
-	</nav>
+	</div>
+</nav>
