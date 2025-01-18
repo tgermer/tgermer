@@ -1,0 +1,10 @@
+<div class="card float-md-{{ include.position }} float-none col-md-5 text-bg-light m-auto 
+        {% if include.position == 'end' %} ms-md-4 
+        {% else %} me-md-4 
+        {% endif %} 
+        my-3 my-md-0">
+    <div class="card-body">
+        <h5 class="card-title">{{ include.title }}</h5>
+        <p class="card-text">{{ include.body }}</p>
+    </div>
+</div>

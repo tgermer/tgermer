@@ -15,6 +15,8 @@ screenshots-path: /assets/img/zahlenportal-hm/
 
 ## Projektbeschreibung
 Das Zahlenportal HM ist eine maßgeschneiderte Lösung zur Verwaltung und Visualisierung von wichtigen Studierendenkennzahlen für die Hochschule München. Ziel war es, einen benutzerfreundlichen und effizienten Zugriff auf zentrale Daten zu ermöglichen, um Entscheidungen datenbasiert zu unterstützen.
+{% include text_box.html position="end" title="Hilfe zur Selbsthilfe" body="Ich schätze das Prinzip der Hilfe zur Selbsthilfe sehr und lasse mich davon stets leiten, wenn ich neue Ideen entwickle." %}
+
 
 ## Herausforderungen und Zielsetzung
 - **Problem**: Die bisherige Verwaltung von Zahlen und Statistiken erfolgte dezentral und war oft zeitaufwändig.
@@ -60,7 +62,7 @@ Dieses Projekt zeigt meine Fähigkeit, komplexe Anforderungen in durchdachte und
 
 
 
-<!-- ## Herausforderungen und Lösungen
+## Herausforderungen und Lösungen
 
 Während meiner Zeit bei der Hochschule München wurde ich täglich mit der Herausforderung konfrontiert, dass Studierendenzahlen in verschiedensten Varianten an diverse Stakeholder manuell übermittelt werden mussten. Die Prozesse waren zeitaufwendig, fehleranfällig und oft unklar, welche spezifischen Daten benötigt wurden. Begrifflichkeiten wie „1. Hochschulsemester“ vs. „1. Fachsemester“, Auswahlkriterien wie „deutsche“ vs. „internationale“ Studierende und die zu betrachtenden Zeiträume sorgten häufig für Missverständnisse und angespannte Situationen – besonders an den Stichtagen, dem 15. Mai und 15. November.
 
@@ -91,4 +93,4 @@ Meine Rolle umfasste nicht nur die initiale Idee, sondern auch die Umsetzung des
 3. **Einsatz moderner Technologien:** Durch die Verwendung von Angular konnte ich die Vorteile eines modernen Frameworks für dynamische und performante Benutzeroberflächen voll ausschöpfen.
 4. **Iterative Entwicklung:** Die inkrementelle Veröffentlichung des Portals hat es ermöglicht, früh Feedback einzuholen und das Produkt kontinuierlich zu verbessern.
 5. **Datenvisualisierung:** Die Kombination von Angular und D3.js hat mir wertvolle Einblicke in die Visualisierung komplexer Daten gegeben und meine Frontend-Kompetenzen erweitert.
-6. **Selbstorganisation:** Von der Idee bis zur Umsetzung habe ich gelernt, wie wichtig es ist, eigenständig Lösungen vorzuschlagen und diese mit einem Team erfolgreich umzusetzen. -->
+6. **Selbstorganisation:** Von der Idee bis zur Umsetzung habe ich gelernt, wie wichtig es ist, eigenständig Lösungen vorzuschlagen und diese mit einem Team erfolgreich umzusetzen.
